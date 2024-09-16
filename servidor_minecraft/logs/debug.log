@@ -4002,3 +4002,109 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [16Sep2024 00:07:54.842] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [16Sep2024 00:11:45.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Set own game mode to Survival Mode]
 [16Sep2024 00:12:20.554] [Worker-Main-7/DEBUG] [mixin/]: Mixing gen.WorldGenRegionMixin from iceandfire.mixins.json into net.minecraft.server.level.WorldGenRegion
+[16Sep2024 00:12:33.188] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:block
+[16Sep2024 00:12:33.189] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/energy_blacklist
+[16Sep2024 00:12:33.191] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 1ms, id: 1942285891
+[16Sep2024 00:12:33.194] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:block_entity_type
+[16Sep2024 00:12:33.195] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/energy_blacklist
+[16Sep2024 00:12:33.195] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 1087031624
+[16Sep2024 00:12:33.195] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:entity_type
+[16Sep2024 00:12:33.196] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/energy_blacklist
+[16Sep2024 00:12:33.196] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 773022701
+[16Sep2024 00:12:33.196] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:block
+[16Sep2024 00:12:33.196] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/fluid_blacklist
+[16Sep2024 00:12:33.197] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 55615812
+[16Sep2024 00:12:33.197] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:block_entity_type
+[16Sep2024 00:12:33.197] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/fluid_blacklist
+[16Sep2024 00:12:33.197] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 1166751188
+[16Sep2024 00:12:33.197] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:entity_type
+[16Sep2024 00:12:33.198] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/fluid_blacklist
+[16Sep2024 00:12:33.198] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 1667284968
+[16Sep2024 00:12:33.198] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:block
+[16Sep2024 00:12:33.198] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/progress_blacklist
+[16Sep2024 00:12:33.199] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 510385207
+[16Sep2024 00:12:33.199] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:block_entity_type
+[16Sep2024 00:12:33.199] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/progress_blacklist
+[16Sep2024 00:12:33.199] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 2129423581
+[16Sep2024 00:12:33.200] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:entity_type
+[16Sep2024 00:12:33.200] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/progress_blacklist
+[16Sep2024 00:12:33.200] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 797191946
+[16Sep2024 00:12:33.200] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:block
+[16Sep2024 00:12:33.201] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/item_blacklist
+[16Sep2024 00:12:33.201] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 46666703
+[16Sep2024 00:12:33.205] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:block_entity_type
+[16Sep2024 00:12:33.205] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/item_blacklist
+[16Sep2024 00:12:33.205] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 361264240
+[16Sep2024 00:12:33.206] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Start filter for minecraft:entity_type
+[16Sep2024 00:12:33.206] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] 	Negate: false, Tag      : #waila:extra/item_blacklist
+[16Sep2024 00:12:33.206] [Server thread/DEBUG] [mcp.mobius.waila.registry.RegistryFilter/]: [WTHIT] Finished in 0ms, id: 819400630
+[16Sep2024 00:12:54.809] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Sep2024 00:12:54.817] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Sep2024 00:13:53.229] [Server thread/DEBUG] [mixin/]: Mixing ItemInputMixin from tombstone.mixins.json into net.minecraft.commands.arguments.item.ItemInput
+[16Sep2024 00:13:53.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Acquire Hardware]
+[16Sep2024 00:13:53.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Gave 64 [Iron Ingot] to Sl44tx]
+[16Sep2024 00:15:18.042] [Worker-Main-7/DEBUG] [ModernFix/]: Structure terralith:underground/old_refinery is being run through DFU (hash 8ddf79e31cc483d60715287bdc3b015d4c1e336e2b1c048601e163548b8c0294), this will cause launch time delays
+[16Sep2024 00:15:18.044] [Worker-Main-7/INFO] [ModernFix/]: Instantiating Mojang DFU
+[16Sep2024 00:15:38.599] [Worker-Main-7/DEBUG] [ModernFix/]: Structure alexscaves:underground_cabin_0 is being run through DFU (hash 75474beb27b17212923b3a550d39b21adf68dd468e4787cc877b3842377c66e1), this will cause launch time delays
+[16Sep2024 00:15:50.302] [Worker-Main-7/DEBUG] [ModernFix/]: Structure iceandfire:village/plains_scriber_1 is being run through DFU (hash 76a607dd4093491f52ecde52887eafe16741dcdeacbe41d03515821e3ebfb9df), this will cause launch time delays
+[16Sep2024 00:16:23.848] [Worker-Main-19/DEBUG] [ModernFix/]: Structure terralith:regular/glacial/interior1 is being run through DFU (hash 177372923eb6a9e054ad90ce38060773071dda764cda7ec65d128eaf3642ed6f), this will cause launch time delays
+[16Sep2024 00:17:22.550] [Worker-Main-19/DEBUG] [ModernFix/]: Structure alexscaves:underground_cabin_2 is being run through DFU (hash a3939a811d5fcd415a803ea224bfb21152304b6a298a9e38113fa5ebbddfd3d1), this will cause launch time delays
+[16Sep2024 00:17:29.553] [Worker-Main-19/DEBUG] [ModernFix/]: Structure terralith:underground/smallminingoutpost is being run through DFU (hash 9f4d2d29abe643289f5ce6dec593e783e713721c6f3eef71ff2219e5e1a426ab), this will cause launch time delays
+[16Sep2024 00:17:39.424] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:plague_asylum/plague_asylum_corridor_4_crossing_pit is being run through DFU (hash dae2d72b198c77a2d8d771f3da2322814f13e3635deb04fa22d1386c01bf95e1), this will cause launch time delays
+[16Sep2024 00:17:39.559] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:merchant_campsite/merchant_campsite_street_4_main is being run through DFU (hash cccebbf6685f2053fd7da36eb06e91d689ad94ddf865efdd68b92559b7023182), this will cause launch time delays
+[16Sep2024 00:17:39.623] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:illager_campsite/illager_campsite_street_6_main is being run through DFU (hash 95b2db72dc9e5f8b3ebefc1ca0e863a6b019689f1b27f3df017b2feb67f146bf), this will cause launch time delays
+[16Sep2024 00:17:39.794] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:heavenly_rider/heavenly_rider_part_2 is being run through DFU (hash 3b98e8aeaf403e69a3fad7de7f17c48bf822826c5e01fcfd693001b357c0af8a), this will cause launch time delays
+[16Sep2024 00:17:40.146] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:aviary/aviary_part_13 is being run through DFU (hash 0d47188f34bbe000059890b534c886c94745009000c4bf5bce68ca12facfb932), this will cause launch time delays
+[16Sep2024 00:17:40.774] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:greenwood_pub/greenwood_pub_0 is being run through DFU (hash 8fa188369b14e9fd33fc26d16e7a5b3589222ecaf1739e731218c7fc9bdc42be), this will cause launch time delays
+[16Sep2024 00:17:41.289] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:bandit_towers/bandit_towers_crossing_2 is being run through DFU (hash 3fca19fa6138014dc68db7204b38877d6217ba208c1cc2e96eaba58b9db05979), this will cause launch time delays
+[16Sep2024 00:17:41.382] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:illager_corsair/illager_corsair_part_1 is being run through DFU (hash 9ef801b1458eb187bb9dbbbc6dcb4d4c0e84c529c2aa8f94967186f6d409d0d4), this will cause launch time delays
+[16Sep2024 00:17:41.462] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:illager_corsair/illager_corsair_part_0 is being run through DFU (hash 0ffa0ef9ae80665fa9c353ab5c7ec1bffe19e10c8b773fcfdb17a11bbcf7c79e), this will cause launch time delays
+[16Sep2024 00:17:41.491] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:illager_corsair/illager_corsair_evoker_0 is being run through DFU (hash 57739cc8b285e7f62ad804c42b8162264fff580438b26fe6b746127afe9cf810), this will cause launch time delays
+[16Sep2024 00:17:41.499] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:illager_corsair/illager_corsair_vindicator_spawner_0 is being run through DFU (hash 227df976f5e96c1c7abcde4371685dd199f32cf418d794d2a4c66bf137aa418f), this will cause launch time delays
+[16Sep2024 00:17:41.592] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:illager_corsair/illager_corsair_pillager_0 is being run through DFU (hash 6eff5031ef7d716f5121d2e4f9fe2593e55a9d2fc76423d5d7c12b5e309de323), this will cause launch time delays
+[16Sep2024 00:17:41.683] [Worker-Main-7/DEBUG] [ModernFix/]: Structure iceandfire:village/savanna_scriber_1 is being run through DFU (hash 1aee738221b30ef94e77a84658532db39be9ef691660fd235b3a721f5414a198), this will cause launch time delays
+[16Sep2024 00:17:54.867] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Sep2024 00:17:54.877] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Sep2024 00:18:03.898] [Worker-Main-7/DEBUG] [ModernFix/]: Structure iceandfire:village/taiga_scriber_1 is being run through DFU (hash 46cb42baa6f67fe14d959fb0ea6208ae9fb55c570235dea6c716e52055308238), this will cause launch time delays
+[16Sep2024 00:18:25.953] [Worker-Main-20/DEBUG] [ModernFix/]: Structure alexscaves:underground_cabin_1 is being run through DFU (hash 93b719aa290210e2d5bb0647155c9ae0b3a4059be3874de3f94c9d85a5f6f321), this will cause launch time delays
+[16Sep2024 00:18:32.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Take Aim]
+[16Sep2024 00:18:43.941] [Worker-Main-20/DEBUG] [ModernFix/]: Structure dungeons_arise:lighthouse/lighthouse_part_1 is being run through DFU (hash f33348679c61f085ea796174eb5756e668b6d051c9721b1d9090d04667a0f4f4), this will cause launch time delays
+[16Sep2024 00:18:43.976] [Worker-Main-20/DEBUG] [ModernFix/]: Structure dungeons_arise:bathhouse/bathhouse_base_4 is being run through DFU (hash b659f3c9823f98408b37a1c703f780d12cd034dd71c3c7eff72bed23d356958e), this will cause launch time delays
+[16Sep2024 00:18:44.049] [Worker-Main-20/DEBUG] [ModernFix/]: Structure dungeons_arise:fishing_hut/fishing_hut_main is being run through DFU (hash 8f26c2abd3d1eec4b5f774434255b0e8df746c1a998aa0cfaad1631f80b7dd99), this will cause launch time delays
+[16Sep2024 00:18:44.145] [Worker-Main-20/DEBUG] [ModernFix/]: Structure dungeons_arise:abandoned_temple/abandoned_temple_0 is being run through DFU (hash 509ef07905d3e6f1a301170bbd81f8df42bd9e5436df2a211855d1fa711e53d7), this will cause launch time delays
+[16Sep2024 00:18:44.215] [Worker-Main-20/DEBUG] [ModernFix/]: Structure dungeons_arise:wishing_well/wishing_well_0 is being run through DFU (hash 36e5928c5fc5ff62065dfe140c9fd2681404c13c077424a9d53232844b7bf0cf), this will cause launch time delays
+[16Sep2024 00:18:44.269] [Worker-Main-20/DEBUG] [ModernFix/]: Structure dungeons_arise:jungle_tree_house/jungle_tree_house_0_main is being run through DFU (hash fdaaae3527bd087ae85b0ae4174af4bc8e5fb752d703b2cfbedea3cec78e2eaa), this will cause launch time delays
+[16Sep2024 00:18:55.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Dragonslayer]
+[16Sep2024 00:19:29.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Monster Hunter]
+[16Sep2024 00:22:03.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Knowledge of Death]
+[16Sep2024 00:22:03.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Ambush]
+[16Sep2024 00:22:45.718] [Worker-Main-7/DEBUG] [ModernFix/]: Structure terralith:regular/glacial/interior216 is being run through DFU (hash def980a590938a160cf7d587e79b8970eedf518c4a8dfdc0d865db9f0dc65ce8), this will cause launch time delays
+[16Sep2024 00:22:54.978] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Sep2024 00:22:54.993] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Sep2024 00:23:06.583] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:abandoned_temple/abandoned_temple_1 is being run through DFU (hash e05cb017ec39f3d64bd0895da26c95f7becd230d1d88380757e2bc6aa62009b5), this will cause launch time delays
+[16Sep2024 00:23:06.651] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:jungle_tree_house/jungle_tree_house_1_roots is being run through DFU (hash 1fcf0be77235eb2856b015f542c7567c1ee719faf21946285911305a59f6ef65), this will cause launch time delays
+[16Sep2024 00:23:08.739] [Worker-Main-7/DEBUG] [ModernFix/]: Structure dungeons_arise:bathhouse/bathhouse_base_3 is being run through DFU (hash 1fb1f3a011acba9a26f6e07662f34071686d7f8e873f64780ad8787d4b83da0a), this will cause launch time delays
+[16Sep2024 00:23:41.206] [Worker-Main-7/DEBUG] [Dungeon Crawl/]: Creating a dungeon at (484 | 31 | 612).
+[16Sep2024 00:23:41.208] [Worker-Main-7/DEBUG] [Dungeon Crawl/]: Generating layout for layer 0
+[16Sep2024 00:23:41.211] [Worker-Main-7/DEBUG] [Dungeon Crawl/]: Generated Layer 0 with 6(0) Nodes and 5(0) Rooms
+[16Sep2024 00:23:41.212] [Worker-Main-7/DEBUG] [Dungeon Crawl/]: Generating layout for layer 1
+[16Sep2024 00:23:41.212] [Worker-Main-7/DEBUG] [Dungeon Crawl/]: Generated Layer 1 with 7(0) Nodes and 4(0) Rooms
+[16Sep2024 00:23:41.212] [Worker-Main-7/DEBUG] [Dungeon Crawl/]: Generating layout for layer 2
+[16Sep2024 00:23:41.213] [Worker-Main-7/DEBUG] [Dungeon Crawl/]: Generated Layer 2 with 10(1) Nodes and 4(0) Rooms
+[16Sep2024 00:23:41.213] [Worker-Main-7/DEBUG] [Dungeon Crawl/]: Generating layout for layer 3
+[16Sep2024 00:23:41.214] [Worker-Main-7/DEBUG] [Dungeon Crawl/]: Generated Layer 3 with 10(1) Nodes and 5(0) Rooms
+[16Sep2024 00:23:41.214] [Worker-Main-7/DEBUG] [Dungeon Crawl/]: Generating layout for layer 4
+[16Sep2024 00:23:41.215] [Worker-Main-7/DEBUG] [Dungeon Crawl/]: Generated Layer 4 with 11(0) Nodes and 4(0) Rooms
+[16Sep2024 00:23:43.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Sweet Dreams]
+[16Sep2024 00:24:07.350] [Worker-Main-7/DEBUG] [ModernFix/]: Structure terralith:regular/glacial/interior2 is being run through DFU (hash 6dedf627f70e92d0c4de628846bbc67f90a7607bd719158f74232f99848480ba), this will cause launch time delays
+[16Sep2024 00:25:52.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Mine? Mine? Mine?]
+[16Sep2024 00:27:54.808] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Sep2024 00:27:54.815] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Sep2024 00:32:34.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Stone Age]
+[16Sep2024 00:32:54.809] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Sep2024 00:32:54.820] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Sep2024 00:37:08.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [You Are A Pirate]
+[16Sep2024 00:37:38.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Sea? Not a Problem]
+[16Sep2024 00:37:54.809] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[16Sep2024 00:37:54.817] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[16Sep2024 00:39:50.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has reached the goal [Fortuitous Militia]
