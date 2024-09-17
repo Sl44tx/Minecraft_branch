@@ -4148,3 +4148,25 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [17Sep2024 02:47:51.500] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
 [17Sep2024 02:47:51.601] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
 [17Sep2024 02:49:30.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Sl44tx> WWWWWWWW
+[17Sep2024 02:52:00.202] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Sep2024 02:52:00.210] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Sep2024 02:53:00.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[17Sep2024 02:53:00.274] [Server thread/DEBUG] [lain.mods.cos.init.forge.ForgeCosmeticArmorReworked/]: Server is stopping... try to save all still loaded CosmeticArmor data
+[17Sep2024 02:53:00.275] [Server thread/DEBUG] [lain.mods.cos.init.forge.ForgeCosmeticArmorReworked/]: 8a1edb0c-bf68-4e38-a47f-c66e8ed55861
+[17Sep2024 02:53:00.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[17Sep2024 02:53:00.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[17Sep2024 02:53:00.301] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Server closed
+[17Sep2024 02:53:00.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[17Sep2024 02:53:00.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[17Sep2024 02:53:01.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17Sep2024 02:53:21.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17Sep2024 02:53:21.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17Sep2024 02:53:21.838] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Sep2024 02:53:21.844] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Sep2024 02:53:21.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17Sep2024 02:53:21.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17Sep2024 02:53:21.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17Sep2024 02:53:21.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17Sep2024 02:53:22.150] [Server thread/DEBUG] [SpectreLib/CONFIG]: Unloading server configs
+[17Sep2024 02:53:22.151] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[17Sep2024 02:53:22.154] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
