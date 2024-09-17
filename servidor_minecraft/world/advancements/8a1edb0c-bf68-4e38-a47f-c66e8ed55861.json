@@ -1014,6 +1014,7 @@
       "minecraft:creeper": "2024-09-16 00:23:23 +0000",
       "minecraft:evoker": "2024-09-17 02:47:20 +0000",
       "minecraft:witch": "2024-09-16 00:22:03 +0000",
+      "minecraft:husk": "2024-09-17 05:06:26 +0000",
       "minecraft:vex": "2024-09-17 02:46:54 +0000",
       "minecraft:zombie": "2024-09-16 00:23:20 +0000"
     },
@@ -1118,7 +1119,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-09-16 00:30:53 +0000",
-      "golden_apple": "2024-09-16 00:27:06 +0000"
+      "golden_apple": "2024-09-16 00:27:06 +0000",
+      "carrot": "2024-09-17 05:09:14 +0000"
     },
     "done": false
   },
@@ -1776,6 +1778,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2024-09-17 05:06:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_wood": {
     "criteria": {
       "has_log": "2024-09-17 04:57:28 +0000"
@@ -1803,6 +1811,18 @@
   "dungeons_arise:find_bathhouse": {
     "criteria": {
       "location0": "2024-09-17 05:02:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-09-17 05:08:34 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_dust": {
+    "criteria": {
+      "has_ingredient": "2024-09-17 05:06:43 +0000"
     },
     "done": true
   },
