@@ -1128,6 +1128,7 @@
       "cooked_mutton": "2024-09-19 01:22:58 +0000",
       "cooked_beef": "2024-09-17 23:14:04 +0000",
       "golden_apple": "2024-09-16 00:27:06 +0000",
+      "golden_carrot": "2024-09-19 04:17:43 +0000",
       "cooked_chicken": "2024-09-19 01:07:45 +0000",
       "carrot": "2024-09-17 05:09:14 +0000"
     },
@@ -2822,6 +2823,18 @@
   "iceandfire:iceandfire/kill_cyclops": {
     "criteria": {
       "killed_fire_dragon": "2024-09-19 01:52:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2024-09-19 04:15:14 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2024-09-19 04:11:30 +0000"
     },
     "done": true
   },
