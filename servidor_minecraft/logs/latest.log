@@ -353,3 +353,32 @@
 [19Sep2024 05:18:16.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -76.87741927749903,0.0,-14.104763242468152
 [19Sep2024 05:25:07.470] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
 [19Sep2024 05:27:12.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Who You Gonna Call?]
+[19Sep2024 05:32:22.861] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Timed out
+[19Sep2024 05:32:22.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[19Sep2024 05:32:26.177] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sl44tx is 8a1edb0c-bf68-4e38-a47f-c66e8ed55861
+[19Sep2024 05:32:27.742] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.106.205.82:65253] logged in with entity id 19589 at (5768.612249319257, 75.7531999805212, -721.1714127506337)
+[19Sep2024 05:32:27.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
+[19Sep2024 05:32:27.872] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Sl44tx'
+[19Sep2024 05:32:27.872] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Sl44tx'
+[19Sep2024 05:33:49.420] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[19Sep2024 05:33:54.337] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Timed out
+[19Sep2024 05:33:54.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[19Sep2024 05:33:56.783] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sl44tx is 8a1edb0c-bf68-4e38-a47f-c66e8ed55861
+[19Sep2024 05:33:58.327] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.106.205.82:65258] logged in with entity id 21096 at (5918.609646574616, 67.24918707874468, -846.8369415693082)
+[19Sep2024 05:33:58.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
+[19Sep2024 05:33:58.444] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Sl44tx'
+[19Sep2024 05:33:58.444] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Sl44tx'
+[19Sep2024 05:34:57.978] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Timed out
+[19Sep2024 05:34:57.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[19Sep2024 05:38:47.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[19Sep2024 05:38:47.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19Sep2024 05:38:47.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19Sep2024 05:38:47.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19Sep2024 05:38:47.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19Sep2024 05:38:48.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19Sep2024 05:38:48.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19Sep2024 05:38:48.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19Sep2024 05:38:48.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19Sep2024 05:38:48.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19Sep2024 05:38:48.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19Sep2024 05:38:49.067] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
