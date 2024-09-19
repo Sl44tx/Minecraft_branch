@@ -351,3 +351,5 @@
 [19Sep2024 05:18:16.707] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -76.12676300938529,0.0,-14.380301653447987
 [19Sep2024 05:18:16.777] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -76.50211673478225,0.0,-14.242629807280991
 [19Sep2024 05:18:16.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -76.87741927749903,0.0,-14.104763242468152
+[19Sep2024 05:25:07.470] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[19Sep2024 05:27:12.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Who You Gonna Call?]
