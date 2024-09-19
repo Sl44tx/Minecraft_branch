@@ -7144,3 +7144,13 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [19Sep2024 01:50:23.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Gave 1 [Acacia Boat] to Sl44tx]
 [19Sep2024 01:50:34.062] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [19Sep2024 01:50:34.067] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Sep2024 01:52:27.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [My Name is Nobody]
+[19Sep2024 01:55:34.089] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Sep2024 01:55:34.095] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Sep2024 01:56:59.347] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Disconnected
+[19Sep2024 01:56:59.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[19Sep2024 01:58:56.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[19Sep2024 01:58:56.739] [Server thread/DEBUG] [lain.mods.cos.init.forge.ForgeCosmeticArmorReworked/]: Server is stopping... try to save all still loaded CosmeticArmor data
+[19Sep2024 01:58:56.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19Sep2024 01:58:56.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19Sep2024 01:58:56.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
