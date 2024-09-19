@@ -2153,6 +2153,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2024-09-19 01:49:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-09-19 01:48:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-09-19 01:15:08 +0000"
@@ -2162,6 +2174,12 @@
   "artifacts:chest_slayer": {
     "criteria": {
       "kill_mimic": "2024-09-19 01:12:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2024-09-19 01:49:44 +0000"
     },
     "done": true
   },
@@ -2189,6 +2207,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/chainmail_boots": {
+    "criteria": {
+      "has_item": "2024-09-19 01:42:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_slab": {
     "criteria": {
       "has_quartz_block": "2024-09-19 00:57:24 +0000"
@@ -2210,6 +2234,12 @@
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_chestplate": "2024-09-19 00:46:53 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/blindfold": {
+    "criteria": {
+      "has_item": "2024-09-19 01:49:44 +0000"
     },
     "done": true
   },
@@ -2273,6 +2303,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2024-09-19 01:49:44 +0000"
+    },
+    "done": true
+  },
+  "chococraft:recipes/misc/choco_disguise_boots": {
+    "criteria": {
+      "has_chocobo_feather": "2024-09-19 01:47:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-09-19 01:15:08 +0000"
@@ -2315,6 +2357,12 @@
     },
     "done": true
   },
+  "chococraft:recipes/misc/choco_disguise_leggings": {
+    "criteria": {
+      "has_chocobo_feather": "2024-09-19 01:47:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2024-09-19 01:28:08 +0000"
@@ -2330,6 +2378,12 @@
   "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-09-19 01:15:08 +0000"
+    },
+    "done": true
+  },
+  "chococraft:recipes/misc/choco_disguise_chestplate": {
+    "criteria": {
+      "has_chocobo_feather": "2024-09-19 01:47:37 +0000"
     },
     "done": true
   },
@@ -2363,9 +2417,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/chainmail_chestplate": {
+    "criteria": {
+      "has_item": "2024-09-19 01:42:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/note_block": {
     "criteria": {
       "has_redstone": "2024-09-19 01:17:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2024-09-19 01:49:44 +0000"
+    },
+    "done": true
+  },
+  "chococraft:recipes/misc/chocobo_whistle": {
+    "criteria": {
+      "has_chocobo_feather": "2024-09-19 01:47:37 +0000"
     },
     "done": true
   },
@@ -2384,6 +2456,12 @@
   "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-09-19 01:15:08 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/horse": {
+    "criteria": {
+      "has_leather": "2024-09-19 01:49:44 +0000"
     },
     "done": true
   },
@@ -2453,6 +2531,12 @@
     },
     "done": true
   },
+  "sophisticatedbackpacks:recipes/misc/backpack": {
+    "criteria": {
+      "has_leather": "2024-09-19 01:49:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-09-19 01:15:08 +0000"
@@ -2462,6 +2546,12 @@
   "minecraft:recipes/building_blocks/smooth_quartz": {
     "criteria": {
       "has_quartz_block": "2024-09-19 00:57:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/chainmail_helmet": {
+    "criteria": {
+      "has_item": "2024-09-19 01:42:53 +0000"
     },
     "done": true
   },
@@ -2495,6 +2585,12 @@
     },
     "done": true
   },
+  "chococraft:recipes/misc/choco_disguise_helmet": {
+    "criteria": {
+      "has_chocobo_feather": "2024-09-19 01:47:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-09-19 01:15:08 +0000"
@@ -2504,6 +2600,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2024-09-19 01:28:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/chainmail_leggings": {
+    "criteria": {
+      "has_item": "2024-09-19 01:42:53 +0000"
     },
     "done": true
   },
@@ -2525,6 +2627,12 @@
     },
     "done": true
   },
+  "chococraft:recipes/misc/chocobo_saddle_alt": {
+    "criteria": {
+      "has_chocobo_feather": "2024-09-19 01:47:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2024-09-19 01:28:08 +0000"
@@ -2543,6 +2651,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2024-09-19 01:49:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2024-09-19 00:42:42 +0000"
@@ -2558,6 +2672,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2024-09-19 01:28:08 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/upgrade_base": {
+    "criteria": {
+      "has_leather": "2024-09-19 01:49:44 +0000"
     },
     "done": true
   },
@@ -2609,6 +2729,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/misc/chain": {
+    "criteria": {
+      "has_item": "2024-09-19 01:42:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-09-19 01:15:08 +0000"
@@ -2639,6 +2765,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2024-09-19 01:49:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2024-09-19 01:28:08 +0000"
@@ -2651,9 +2783,27 @@
     },
     "done": true
   },
+  "chococraft:recipes/misc/chocobo_saddle": {
+    "criteria": {
+      "has_chocobo_feather": "2024-09-19 01:47:37 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/enchant_grave_key": {
     "criteria": {
       "has_upgraded_grave_key": "2024-09-19 01:35:58 +0000"
+    },
+    "done": true
+  },
+  "chococraft:recipes/misc/chocobo_saddle_bags": {
+    "criteria": {
+      "has_chocobo_feather": "2024-09-19 01:47:37 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake": {
+    "criteria": {
+      "has_egg": "2024-09-19 01:48:51 +0000"
     },
     "done": true
   },

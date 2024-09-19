@@ -7136,3 +7136,11 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [19Sep2024 01:37:03.091] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:regular/glacial/interior216
 [19Sep2024 01:40:34.090] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [19Sep2024 01:40:34.099] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Sep2024 01:45:34.076] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Sep2024 01:45:34.082] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[19Sep2024 01:49:38.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Set own game mode to Creative Mode]
+[19Sep2024 01:49:47.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Set own game mode to Survival Mode]
+[19Sep2024 01:50:23.247] [Server thread/DEBUG] [mixin/]: Mixing ItemInputMixin from tombstone.mixins.json into net.minecraft.commands.arguments.item.ItemInput
+[19Sep2024 01:50:23.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Sl44tx: Gave 1 [Acacia Boat] to Sl44tx]
+[19Sep2024 01:50:34.062] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[19Sep2024 01:50:34.067] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
