@@ -151,3 +151,5 @@
 [19Sep2024 04:11:30.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Pic-A-Nic Basket?]
 [19Sep2024 04:11:40.982] [Worker-Main-1/INFO] [ModernFix/]: Instantiating Mojang DFU
 [19Sep2024 04:22:10.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Ice Bucket Challenge]
+[19Sep2024 04:31:06.912] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-176, y=-50, z=-133}
+[19Sep2024 04:31:06.916] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-50, z=-135}
