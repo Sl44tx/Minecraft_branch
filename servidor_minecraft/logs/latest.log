@@ -148,3 +148,21 @@
 [19Sep2024 00:59:46.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Cover Me with Diamonds]
 [19Sep2024 01:00:02.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Suit Up]
 [19Sep2024 01:12:20.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Chest Slayer]
+[19Sep2024 01:31:54.563] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[19Sep2024 01:34:09.565] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-177, y=-55, z=-77}
+[19Sep2024 01:34:09.572] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-181, y=-50, z=-73}
+[19Sep2024 01:34:09.578] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-182, y=-45, z=-75}
+[19Sep2024 01:34:09.579] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-54, z=-70}
+[19Sep2024 01:34:09.600] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-283, y=-56, z=-275}
+[19Sep2024 01:34:10.008] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-54, z=-74}
+[19Sep2024 01:34:10.010] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-192, y=-50, z=-77}
+[19Sep2024 01:34:10.012] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-50, z=-72}
+[19Sep2024 01:34:10.015] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-184, y=-45, z=-75}
+[19Sep2024 01:35:32.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx fell from a high place
+[19Sep2024 01:35:32.807] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Sl44tx with unique ID travelersbackpack.enderman_19.09.2024-01.35.32.dat
+[19Sep2024 01:35:32.814] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 4362 Y: 44 Z: 1416
+[19Sep2024 01:35:32.906] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
+[19Sep2024 01:35:58.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [The Most Useful Key]
+[19Sep2024 01:35:58.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Quickly Applied]
+[19Sep2024 01:36:03.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has reached the goal [A Fast Comeback]
+[19Sep2024 01:36:07.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has reached the goal [Here They Come]
