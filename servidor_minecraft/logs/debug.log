@@ -7293,3 +7293,45 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [20Sep2024 04:27:12.080] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/8439, l='ServerLevel[world]', x=5911.35, y=50.00, z=-1887.32] died: Unlicensed Alchemist was slain by Sl44tx
 [20Sep2024 04:27:19.800] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/8437, l='ServerLevel[world]', x=5906.31, y=50.00, z=-1891.14] died: Unlicensed Alchemist was slain by Sl44tx
 [20Sep2024 04:27:22.292] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/8488, l='ServerLevel[world]', x=5906.48, y=50.00, z=-1891.49] died: Unlicensed Alchemist was slain by Sl44tx
+[20Sep2024 04:30:50.010] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2024 04:30:50.016] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2024 04:31:34.927] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of iceandfire:graveyard/graveyard_top
+[20Sep2024 04:31:34.938] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of iceandfire:graveyard/graveyard_bottom
+[20Sep2024 04:32:05.485] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:regular/glacial/interior216
+[20Sep2024 04:32:14.982] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:regular/glacial/interior1
+[20Sep2024 04:32:26.169] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9988, l='ServerLevel[world]', x=5544.46, y=71.30, z=-1965.73]
+[20Sep2024 04:32:26.170] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9989, l='ServerLevel[world]', x=5542.65, y=71.60, z=-1966.79]
+[20Sep2024 04:32:26.170] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9990, l='ServerLevel[world]', x=5538.88, y=71.00, z=-1965.66]
+[20Sep2024 04:32:26.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9991, l='ServerLevel[world]', x=5537.64, y=70.40, z=-1965.14]
+[20Sep2024 04:32:26.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9994, l='ServerLevel[world]', x=5539.88, y=71.21, z=-1966.61]
+[20Sep2024 04:32:26.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9995, l='ServerLevel[world]', x=5538.98, y=70.77, z=-1965.82]
+[20Sep2024 04:32:26.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9996, l='ServerLevel[world]', x=5538.18, y=70.47, z=-1965.14]
+[20Sep2024 04:32:26.172] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9997, l='ServerLevel[world]', x=5537.17, y=70.17, z=-1964.25]
+[20Sep2024 04:32:55.850] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of iceandfire:village/plains_scriber_1
+[20Sep2024 04:33:25.019] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_base_3
+[20Sep2024 04:33:25.042] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:abandoned_temple/abandoned_temple_0
+[20Sep2024 04:33:25.072] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:lighthouse/lighthouse_part_1
+[20Sep2024 04:33:25.085] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:jungle_tree_house/jungle_tree_house_0_main
+[20Sep2024 04:33:25.098] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:fishing_hut/fishing_hut_main
+[20Sep2024 04:33:25.114] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:wishing_well/wishing_well_0
+[20Sep2024 04:33:36.916] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_base_2
+[20Sep2024 04:33:58.633] [Worker-Main-1/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_base_5
+[20Sep2024 04:35:49.992] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2024 04:35:49.998] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[20Sep2024 04:37:27.356] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:mushroom_house/mushroom_house_bottom_1
+[20Sep2024 04:37:27.374] [Worker-Main-9/DEBUG] [ModernFix/]: Structure dungeons_arise:mushroom_house/mushroom_house_roots_0 is being run through DFU (hash 962578fc7708746b628dca27fc3a85a519af2f79f85afd8bffffb1138e260900), this will cause launch time delays
+[20Sep2024 04:37:27.470] [Worker-Main-9/DEBUG] [ModernFix/]: Structure dungeons_arise:mushroom_house/mushroom_house_top_1 is being run through DFU (hash 7b21fdffa7a9a5e0e199ee3fec061057c30bcb8da0c3e7736def8138a8cfea17), this will cause launch time delays
+[20Sep2024 04:37:27.496] [Worker-Main-9/DEBUG] [ModernFix/]: Structure dungeons_arise:mushroom_house/mushroom_house_top_0 is being run through DFU (hash e8b079de93e43a9fffc70c7061ec60a545625d1d837c700e9d23afe0b04f9d93), this will cause launch time delays
+[20Sep2024 04:37:27.547] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:mushroom_house/mushroom_house_bottom_2
+[20Sep2024 04:37:27.550] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:mushroom_house/mushroom_house_bottom_3
+[20Sep2024 04:37:27.565] [Worker-Main-9/DEBUG] [ModernFix/]: Structure dungeons_arise:mushroom_house/mushroom_house_top_3 is being run through DFU (hash dc7ad5f772feeefdec83c877a8e9805d0ff6ad7ae6b852e7fdca4e06051538ab), this will cause launch time delays
+[20Sep2024 04:37:27.581] [Worker-Main-9/DEBUG] [ModernFix/]: Structure dungeons_arise:mushroom_house/mushroom_house_top_2 is being run through DFU (hash 21e83b1170d130d92bcfe5439c1418162bc7bead365ee48366543caa05df50db), this will cause launch time delays
+[20Sep2024 04:37:27.591] [Worker-Main-9/DEBUG] [ModernFix/]: Structure dungeons_arise:mushroom_house/mushroom_house_top_4 is being run through DFU (hash 5b88508f035a2a021b620463f9bc58546e95f50471753329928c1513c0189bf3), this will cause launch time delays
+[20Sep2024 04:37:27.602] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:mushroom_house/mushroom_house_bottom_0
+[20Sep2024 04:37:27.603] [Worker-Main-9/DEBUG] [ModernFix/]: Structure dungeons_arise:mushroom_house/mushroom_house_piglin_0 is being run through DFU (hash 9cc06412e75087b92ed78b7dc654702e658cb5ce732ffc856406f4b7ae888920), this will cause launch time delays
+[20Sep2024 04:37:27.812] [Worker-Main-9/DEBUG] [ModernFix/]: Structure dungeons_arise:mushroom_house/mushroom_house_piglin_1 is being run through DFU (hash 4b0d122034d49d15b17168a012434b4f0184fe803ad83ad9822a65ee2b333ced), this will cause launch time delays
+[20Sep2024 04:37:27.824] [Worker-Main-9/DEBUG] [ModernFix/]: Structure dungeons_arise:mushroom_house/mushroom_house_piglin_2 is being run through DFU (hash 0b6bd83133060f95020b74da9d341154182afccc938e0168c6d6d1536023c600), this will cause launch time delays
+[20Sep2024 04:38:40.663] [Worker-Main-8/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:regular/glacial/interior2
+[20Sep2024 04:39:06.157] [Worker-Main-9/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:village/fortified/start_castle
+[20Sep2024 04:40:49.995] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[20Sep2024 04:40:50.002] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
