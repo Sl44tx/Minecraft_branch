@@ -198,3 +198,17 @@
 [20Sep2024 04:32:26.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9995, l='ServerLevel[world]', x=5538.98, y=70.77, z=-1965.82]
 [20Sep2024 04:32:26.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9996, l='ServerLevel[world]', x=5538.18, y=70.47, z=-1965.14]
 [20Sep2024 04:32:26.172] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9997, l='ServerLevel[world]', x=5537.17, y=70.17, z=-1964.25]
+[20Sep2024 04:42:25.825] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Disconnected
+[20Sep2024 04:42:25.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
+[20Sep2024 04:42:37.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[20Sep2024 04:42:37.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Sep2024 04:42:37.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Sep2024 04:42:37.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Sep2024 04:42:38.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20Sep2024 04:42:38.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20Sep2024 04:42:38.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20Sep2024 04:42:38.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20Sep2024 04:42:38.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Sep2024 04:42:38.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Sep2024 04:42:38.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20Sep2024 04:42:39.111] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
