@@ -1,384 +1,137 @@
-[19Sep2024 04:59:06.809] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[19Sep2024 04:59:06.818] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[19Sep2024 04:59:08.637] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[19Sep2024 04:59:08.755] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[19Sep2024 04:59:09.413] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[19Sep2024 04:59:09.421] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[19Sep2024 04:59:09.423] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[19Sep2024 04:59:09.426] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[19Sep2024 04:59:09.766] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
-[19Sep2024 04:59:17.004] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
-[19Sep2024 04:59:17.032] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[19Sep2024 04:59:17.306] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[19Sep2024 04:59:17.306] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[19Sep2024 04:59:17.383] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Sep2024 04:59:17.385] [main/WARN] [mixin/]: Reference map 'nerb-forge-refmap.json' for nerb.mixins.json could not be read. If this is a development environment you can ignore this message
-[19Sep2024 04:59:17.655] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 84 options available, 0 override(s) found
-[19Sep2024 04:59:17.659] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[19Sep2024 04:59:17.730] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[19Sep2024 04:59:18.237] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache)
-[19Sep2024 04:59:18.256] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline)
-[19Sep2024 04:59:18.257] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess)
-[19Sep2024 04:59:20.369] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[19Sep2024 04:59:20.412] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[19Sep2024 04:59:23.355] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[19Sep2024 04:59:23.356] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[19Sep2024 04:59:23.856] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[19Sep2024 04:59:25.670] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (29.04 s after launch)
-[19Sep2024 04:59:26.108] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[19Sep2024 04:59:26.110] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[19Sep2024 04:59:26.520] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[19Sep2024 04:59:26.521] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[19Sep2024 04:59:31.603] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 5922 milliseconds
-[19Sep2024 04:59:32.633] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[19Sep2024 04:59:32.638] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[19Sep2024 04:59:32.658] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[19Sep2024 04:59:32.659] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[19Sep2024 04:59:38.988] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
-[19Sep2024 04:59:40.224] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[19Sep2024 04:59:40.225] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[19Sep2024 04:59:40.235] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[19Sep2024 04:59:40.235] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[19Sep2024 04:59:40.236] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[19Sep2024 04:59:40.237] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[19Sep2024 04:59:40.238] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[19Sep2024 04:59:40.239] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[19Sep2024 04:59:40.322] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
-[19Sep2024 04:59:40.325] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgeRegistrationFactory for service Factory
-[19Sep2024 04:59:40.337] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgePlatformHelper for service PlatformHelper
-[19Sep2024 04:59:40.337] [modloading-worker-0/INFO] [ToolLeveling+/]: Initializing ToolLeveling+...
-[19Sep2024 04:59:40.688] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[19Sep2024 04:59:40.884] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[19Sep2024 04:59:40.889] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[19Sep2024 04:59:41.001] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[19Sep2024 04:59:46.743] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[19Sep2024 04:59:47.828] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[19Sep2024 04:59:47.856] [modloading-worker-0/INFO] [ToolLeveling+/]: Created README.txt in config folder.
-[19Sep2024 04:59:47.859] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'tool_leveling_table.json' was successfully loaded.
-[19Sep2024 04:59:47.862] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: tool_leveling_table.json
-[19Sep2024 04:59:47.864] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'command_config.json' was successfully loaded.
-[19Sep2024 04:59:47.867] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: command_config.json
-[19Sep2024 04:59:47.941] [main/INFO] [journeymap/]: Initializing Packet Registries
-[19Sep2024 04:59:48.006] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[19Sep2024 04:59:48.010] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[19Sep2024 04:59:48.010] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[19Sep2024 04:59:48.011] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[19Sep2024 04:59:48.011] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[19Sep2024 04:59:48.331] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.2 Target: null
-[19Sep2024 04:59:48.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[19Sep2024 04:59:48.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.15 Target: null
-[19Sep2024 04:59:48.451] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[19Sep2024 04:59:48.505] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
-[19Sep2024 04:59:48.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
-[19Sep2024 04:59:48.520] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[19Sep2024 04:59:48.532] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
-[19Sep2024 04:59:48.535] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.7.3 Target: null
-[19Sep2024 04:59:48.536] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19Sep2024 04:59:48.553] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
-[19Sep2024 04:59:48.554] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:forge at mcp.mobius.waila.plugin.forge.ForgeCommonPlugin
-[19Sep2024 04:59:48.556] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
-[19Sep2024 04:59:48.660] [modloading-worker-0/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[19Sep2024 04:59:48.681] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
-[19Sep2024 04:59:49.288] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19Sep2024 04:59:49.497] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[19Sep2024 04:59:50.315] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23177!/assets/.mcassetsroot' uses unexpected schema
-[19Sep2024 04:59:50.316] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23177!/data/.mcassetsroot' uses unexpected schema
-[19Sep2024 04:59:55.965] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[19Sep2024 04:59:56.235] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.7.3.jar
-[19Sep2024 04:59:58.916] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[19Sep2024 04:59:59.264] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2294 advancements
-[19Sep2024 04:59:59.275] [main/INFO] [placebo/]: Registered 0 additional recipes.
-[19Sep2024 04:59:59.926] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[19Sep2024 04:59:59.936] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[19Sep2024 04:59:59.947] [main/INFO] [Dungeon Crawl/]: Loading data...
-[19Sep2024 05:00:00.941] [main/INFO] [Dungeon Crawl/]: Done.
-[19Sep2024 05:00:00.969] [main/INFO] [placebo/]: Registered 0 gear_sets.
-[19Sep2024 05:00:01.991] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[19Sep2024 05:00:01.991] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[19Sep2024 05:00:01.993] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[19Sep2024 05:00:01.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19Sep2024 05:00:02.347] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[19Sep2024 05:00:02.394] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[19Sep2024 05:00:02.598] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[19Sep2024 05:00:03.014] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[19Sep2024 05:00:04.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19Sep2024 05:00:09.470] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Sep2024 05:00:09.472] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Sep2024 05:00:09.472] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Sep2024 05:00:09.473] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Sep2024 05:00:09.474] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Sep2024 05:00:09.474] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Sep2024 05:00:09.475] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Sep2024 05:00:09.479] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Sep2024 05:00:09.479] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Sep2024 05:00:09.480] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Sep2024 05:00:09.769] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Sep2024 05:00:10.269] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[19Sep2024 05:00:10.770] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[19Sep2024 05:00:11.274] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 73%
-[19Sep2024 05:00:11.822] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7056 ms
-[19Sep2024 05:00:11.824] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.235s)! For help, type "help"
-[19Sep2024 05:00:11.876] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[19Sep2024 05:00:11.943] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[19Sep2024 05:00:11.988] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[19Sep2024 05:00:11.989] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[19Sep2024 05:00:11.994] [Server thread/WARN] [ModernFix/]: Dedicated server took 75.367 seconds to load
-[19Sep2024 05:00:32.850] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sl44tx is 8a1edb0c-bf68-4e38-a47f-c66e8ed55861
-[19Sep2024 05:00:36.797] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.106.205.82:65146] logged in with entity id 597 at (5706.5, 65.0, 1381.5)
-[19Sep2024 05:00:37.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
-[19Sep2024 05:00:37.400] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Sl44tx'
-[19Sep2024 05:00:37.402] [Server thread/INFO] [ToolLeveling+/]: Loaded ForgeServerNetworkHelper for service ServerNetworkHelper
-[19Sep2024 05:00:37.407] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Sl44tx'
-[19Sep2024 05:00:41.061] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4415ms or 88 ticks behind
-[19Sep2024 05:00:56.727] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/684, l='ServerLevel[world]', x=5654.74, y=72.14, z=1389.02] died, message: 'Villager was slain by Cyclops'
-[19Sep2024 05:01:05.549] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9502ms or 190 ticks behind
-[19Sep2024 05:01:05.820] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/613, l='ServerLevel[world]', x=5676.12, y=72.20, z=1383.33] died, message: 'Farmer was slain by Cyclops'
-[19Sep2024 05:01:11.043] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/627, l='ServerLevel[world]', x=5678.68, y=71.20, z=1370.69] died, message: 'Villager was slain by Cyclops'
-[19Sep2024 05:03:06.035] [Worker-Main-1/INFO] [ModernFix/]: Instantiating Mojang DFU
-[19Sep2024 05:04:12.977] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Disconnected
-[19Sep2024 05:04:12.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
-[19Sep2024 05:05:27.184] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sl44tx is 8a1edb0c-bf68-4e38-a47f-c66e8ed55861
-[19Sep2024 05:05:28.794] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.106.205.82:65177] logged in with entity id 3440 at (5806.502820894157, 94.0, 1143.0280296358867)
-[19Sep2024 05:05:28.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
-[19Sep2024 05:05:28.916] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Sl44tx'
-[19Sep2024 05:05:28.917] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Sl44tx'
-[19Sep2024 05:13:31.818] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [It's an Emu!!!]
-[19Sep2024 05:14:31.980] [Worker-Main-20/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-176, y=-50, z=-133}
-[19Sep2024 05:14:31.983] [Worker-Main-20/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-172, y=-50, z=-135}
-[19Sep2024 05:14:38.048] [Worker-Main-20/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-151}
-[19Sep2024 05:14:38.056] [Worker-Main-20/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-143}
-[19Sep2024 05:14:38.060] [Worker-Main-20/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
-[19Sep2024 05:17:46.851] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Drowned['Drowned'/8699, l='ServerLevel[world]', x=5539.50, y=49.00, z=1653.50]
-[19Sep2024 05:18:06.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 0.5768970182161866
-[19Sep2024 05:18:06.813] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 0.8860616113179276
-[19Sep2024 05:18:06.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 1.1889366826617334
-[19Sep2024 05:18:06.916] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 1.4862515060403894
-[19Sep2024 05:18:06.958] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 1.7786587345035514
-[19Sep2024 05:18:07.021] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 2.0667431020438016
-[19Sep2024 05:18:07.060] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 2.351029296107299
-[19Sep2024 05:18:07.136] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 2.631799992991546
-[19Sep2024 05:18:07.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 2.9269235002138885
-[19Sep2024 05:18:07.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 3.213240220314219
-[19Sep2024 05:18:07.256] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 3.497037357499721
-[19Sep2024 05:18:07.321] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 3.7792600168759236
-[19Sep2024 05:18:07.359] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 4.060727804610906
-[19Sep2024 05:18:07.409] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 4.351569916924178
-[19Sep2024 05:18:07.458] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 4.702176719008946
-[19Sep2024 05:18:07.511] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 5.0966905090403
-[19Sep2024 05:18:07.558] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 5.393630245985158
-[19Sep2024 05:18:07.611] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 5.598121290419114
-[19Sep2024 05:18:07.661] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 5.76819885859612
-[19Sep2024 05:18:07.708] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 6.05929866405495
-[19Sep2024 05:18:07.774] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 6.446795081797063
-[19Sep2024 05:18:07.834] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 6.817639469299138
-[19Sep2024 05:18:07.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 7.174891761028448
-[19Sep2024 05:18:07.912] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved wrongly! 7.528483499019785
-[19Sep2024 05:18:07.959] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -9.80175969260381,0.0,-3.4764148760955322
-[19Sep2024 05:18:08.057] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -10.178750450011648,0.0,-3.610123140560745
-[19Sep2024 05:18:08.073] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -10.555741207419487,0.0,-3.743831405025958
-[19Sep2024 05:18:08.136] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -10.932731964827326,0.0,-3.8775396694911706
-[19Sep2024 05:18:08.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -11.309722722235165,0.0,-4.011247933956383
-[19Sep2024 05:18:08.223] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -11.686713479643004,0.0,-4.144956198421596
-[19Sep2024 05:18:08.275] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -12.063704237050842,0.0,-4.278664462886809
-[19Sep2024 05:18:08.319] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -12.440694994458681,0.0,-4.412372727352022
-[19Sep2024 05:18:08.359] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -12.81768575186652,0.0,-4.5460809918172345
-[19Sep2024 05:18:08.416] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -13.194676509274359,0.0,-4.679789256282447
-[19Sep2024 05:18:08.458] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -13.571667266682198,0.0,-4.81349752074766
-[19Sep2024 05:18:08.518] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -13.948658024090037,0.0,-4.947205785212873
-[19Sep2024 05:18:08.567] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -14.325648781497875,0.0,-5.080914049678086
-[19Sep2024 05:18:08.612] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -14.702639538905714,0.0,-5.214622314143298
-[19Sep2024 05:18:08.668] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -15.079630296313553,0.0,-5.348330578608511
-[19Sep2024 05:18:08.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -15.456621053721392,0.0,-5.482038843073724
-[19Sep2024 05:18:08.774] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -15.83361181112923,0.0,-5.615747107538937
-[19Sep2024 05:18:08.806] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -16.21060256853707,0.0,-5.7494553720041495
-[19Sep2024 05:18:08.861] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -16.58759332594491,0.0,-5.883163636469362
-[19Sep2024 05:18:08.908] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -16.964584083352747,0.0,-6.016871900934575
-[19Sep2024 05:18:08.961] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -17.341574840760586,0.0,-6.150580165399788
-[19Sep2024 05:18:09.014] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -17.718565598168425,0.0,-6.284288429865001
-[19Sep2024 05:18:09.061] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -18.095556355576264,0.0,-6.417996694330213
-[19Sep2024 05:18:09.109] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -18.472547112984103,0.0,-6.551704958795426
-[19Sep2024 05:18:09.181] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -18.84953787039194,0.0,-6.685413223260639
-[19Sep2024 05:18:09.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -19.22652862779978,0.0,-6.819121487725852
-[19Sep2024 05:18:09.266] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -19.60351938520762,0.0,-6.9528297521910645
-[19Sep2024 05:18:09.308] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -19.980510142615458,0.0,-7.086538016656277
-[19Sep2024 05:18:09.371] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -20.357500900023297,0.0,-7.22024628112149
-[19Sep2024 05:18:09.406] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -20.734491657431136,0.0,-7.353954545586703
-[19Sep2024 05:18:09.461] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -21.111482414838974,0.0,-7.487662810051916
-[19Sep2024 05:18:09.506] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -21.488473172246813,0.0,-7.621371074517128
-[19Sep2024 05:18:09.562] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -21.865463929654652,0.0,-7.755079338982341
-[19Sep2024 05:18:09.613] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -22.24245468706249,0.0,-7.888787603447554
-[19Sep2024 05:18:09.662] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -22.61944544447033,0.0,-8.022495867912767
-[19Sep2024 05:18:09.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -22.99643620187817,0.0,-8.15620413237798
-[19Sep2024 05:18:09.759] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -23.373426959286007,0.0,-8.289912396843192
-[19Sep2024 05:18:09.807] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -23.750417716693846,0.0,-8.423620661308405
-[19Sep2024 05:18:09.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -24.127408474101685,0.0,-8.557328925773618
-[19Sep2024 05:18:09.910] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -24.504399231509524,0.0,-8.69103719023883
-[19Sep2024 05:18:09.962] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -24.881389988917363,0.0,-8.824745454704043
-[19Sep2024 05:18:10.009] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -25.2583807463252,0.0,-8.958453719169256
-[19Sep2024 05:18:10.066] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -25.63537150373304,0.0,-9.092161983634469
-[19Sep2024 05:18:10.107] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -26.01236226114088,0.0,-9.225870248099682
-[19Sep2024 05:18:10.176] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -26.389353018548718,0.0,-9.359578512564894
-[19Sep2024 05:18:10.206] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -26.766343775956557,0.0,-9.493286777030107
-[19Sep2024 05:18:10.245] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -27.143334533364396,0.0,-9.62699504149532
-[19Sep2024 05:18:10.305] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -27.520325290772234,0.0,-9.760703305960533
-[19Sep2024 05:18:10.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -27.897316048180073,0.0,-9.894411570425746
-[19Sep2024 05:18:10.409] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -28.274306805587912,0.0,-10.028119834890958
-[19Sep2024 05:18:10.467] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -28.65129756299575,0.0,-10.161828099356171
-[19Sep2024 05:18:10.514] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -29.02828832040359,0.0,-10.295536363821384
-[19Sep2024 05:18:10.562] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -29.40527907781143,0.0,-10.429244628286597
-[19Sep2024 05:18:10.609] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -29.782269835219267,0.0,-10.56295289275181
-[19Sep2024 05:18:10.670] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -30.159260592627106,0.0,-10.696661157217022
-[19Sep2024 05:18:10.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -30.536251350034945,0.0,-10.830369421682235
-[19Sep2024 05:18:10.760] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -30.913242107442784,0.0,-10.964077686147448
-[19Sep2024 05:18:10.807] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -31.290232864850623,0.0,-11.09778595061266
-[19Sep2024 05:18:10.857] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -31.66722362225846,0.0,-11.231494215077873
-[19Sep2024 05:18:10.910] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -32.0442143796663,0.0,-11.365202479543086
-[19Sep2024 05:18:10.962] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -32.42120513707414,0.0,-11.498910744008299
-[19Sep2024 05:18:11.014] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -32.79819589448198,0.0,-11.632619008473512
-[19Sep2024 05:18:11.064] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -33.17518665188982,0.0,-11.766327272938724
-[19Sep2024 05:18:11.127] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -33.552177409297656,0.0,-11.900035537403937
-[19Sep2024 05:18:11.160] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -33.929168166705495,0.0,-12.03374380186915
-[19Sep2024 05:18:11.229] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -34.30615892411333,0.0,-12.167452066334363
-[19Sep2024 05:18:11.274] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -34.68314968152117,0.0,-12.301160330799576
-[19Sep2024 05:18:11.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -35.06014043892901,0.0,-12.434868595264788
-[19Sep2024 05:18:11.362] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -35.43713119633685,0.0,-12.568576859730001
-[19Sep2024 05:18:11.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -35.81412195374469,0.0,-12.702285124195214
-[19Sep2024 05:18:11.471] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -36.19111271115253,0.0,-12.835993388660427
-[19Sep2024 05:18:11.495] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -36.568103468560366,0.0,-12.96970165312564
-[19Sep2024 05:18:11.573] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -36.945094225968205,0.0,-13.103409917590852
-[19Sep2024 05:18:11.613] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -37.322084983376044,0.0,-13.237118182056065
-[19Sep2024 05:18:11.671] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -37.69907574078388,0.0,-13.370826446521278
-[19Sep2024 05:18:11.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -38.07606649819172,0.0,-13.50453471098649
-[19Sep2024 05:18:11.758] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -38.45305725559956,0.0,-13.638242975451703
-[19Sep2024 05:18:11.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -38.8300480130074,0.0,-13.771951239916916
-[19Sep2024 05:18:11.845] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -39.20703877041524,0.0,-13.905659504382129
-[19Sep2024 05:18:11.937] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -39.58402952782308,0.0,-14.039367768847342
-[19Sep2024 05:18:11.977] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -39.961020285230916,0.0,-14.173076033312555
-[19Sep2024 05:18:12.008] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -40.338011042638755,0.0,-14.306784297777767
-[19Sep2024 05:18:12.060] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -40.71500180004659,0.0,-14.44049256224298
-[19Sep2024 05:18:12.113] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -41.09199255745443,0.0,-14.574200826708193
-[19Sep2024 05:18:12.160] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -41.46898331486227,0.0,-14.707909091173406
-[19Sep2024 05:18:12.213] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -41.84597407227011,0.0,-14.841617355638618
-[19Sep2024 05:18:12.260] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -42.22296482967795,0.0,-14.975325620103831
-[19Sep2024 05:18:12.338] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -42.59995558708579,0.0,-15.109033884569044
-[19Sep2024 05:18:12.361] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -42.976946344493626,0.0,-15.242742149034257
-[19Sep2024 05:18:12.412] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -43.353937101901465,0.0,-15.37645041349947
-[19Sep2024 05:18:12.457] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -43.730927859309304,0.0,-15.510158677964682
-[19Sep2024 05:18:12.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -44.10791861671714,0.0,-15.643866942429895
-[19Sep2024 05:18:12.593] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -44.48490937412498,0.0,-15.777575206895108
-[19Sep2024 05:18:12.632] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -44.86190013153282,0.0,-15.91128347136032
-[19Sep2024 05:18:12.656] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -45.23889088894066,0.0,-16.044991735825533
-[19Sep2024 05:18:12.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -45.6158816463485,0.0,-16.178700000290746
-[19Sep2024 05:18:12.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -45.99287240375634,0.0,-16.31240826475596
-[19Sep2024 05:18:12.810] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -46.369863161164176,0.0,-16.44611652922117
-[19Sep2024 05:18:12.867] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -46.746853918572015,0.0,-16.579824793686385
-[19Sep2024 05:18:12.907] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -47.12384467597985,0.0,-16.713533058151597
-[19Sep2024 05:18:12.957] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -47.50083543338769,0.0,-16.84724132261681
-[19Sep2024 05:18:13.007] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -47.87782619079553,0.0,-16.980949587082023
-[19Sep2024 05:18:13.058] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -48.25481694820337,0.0,-17.114657851547236
-[19Sep2024 05:18:13.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -48.63180770561121,0.0,-17.24836611601245
-[19Sep2024 05:18:13.163] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -49.00879846301905,0.0,-17.38207438047766
-[19Sep2024 05:18:13.206] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -49.38578922042689,0.0,-17.515782644942874
-[19Sep2024 05:18:13.255] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -49.762779977834725,0.0,-17.649490909408087
-[19Sep2024 05:18:13.312] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -50.139770735242564,0.0,-17.7831991738733
-[19Sep2024 05:18:13.356] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -50.5167614926504,0.0,-17.916907438338512
-[19Sep2024 05:18:13.407] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -50.89375225005824,0.0,-18.050615702803725
-[19Sep2024 05:18:13.460] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -51.27074300746608,0.0,-18.184323967268938
-[19Sep2024 05:18:13.517] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -51.64796132050651,0.0,-18.31737241669839
-[19Sep2024 05:18:13.558] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -52.025785144462134,0.0,-18.44856215499408
-[19Sep2024 05:18:13.607] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -52.40465193248383,0.0,-18.576255372838204
-[19Sep2024 05:18:13.659] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -52.784964649745234,0.0,-18.69845561415741
-[19Sep2024 05:18:13.711] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -53.16691447487756,0.0,-18.813575752551515
-[19Sep2024 05:18:13.762] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -53.550540587541036,0.0,-18.920390285272333
-[19Sep2024 05:18:13.810] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -53.93577739464308,0.0,-19.017984153972748
-[19Sep2024 05:18:13.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -54.32249034704364,0.0,-19.1057035850813
-[19Sep2024 05:18:13.916] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -54.710502586648545,0.0,-19.1831174661786
-[19Sep2024 05:18:13.959] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -55.099615129000085,0.0,-19.2499850763586
-[19Sep2024 05:18:14.008] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -55.48962077704982,0.0,-19.306214707809886
-[19Sep2024 05:18:14.045] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -55.88031509383654,0.0,-19.351845029549168
-[19Sep2024 05:18:14.111] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -56.27150251534658,0.0,-19.387012753663612
-[19Sep2024 05:18:14.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -56.6630017962143,0.0,-19.41193861210968
-[19Sep2024 05:18:14.211] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -57.05464770710114,0.0,-19.426903303848576
-[19Sep2024 05:18:14.264] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -57.44629397422068,0.0,-19.432240958908324
-[19Sep2024 05:18:14.309] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -57.837811238497125,0.0,-19.428314477783488
-[19Sep2024 05:18:14.363] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -58.22908904095493,0.0,-19.415515935436815
-[19Sep2024 05:18:14.411] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -58.62003377252131,0.0,-19.39425200276196
-[19Sep2024 05:18:14.466] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -59.010567961335255,0.0,-19.36493837985722
-[19Sep2024 05:18:14.507] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -59.40062927742565,0.0,-19.327994836263997
-[19Sep2024 05:18:14.565] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -59.7901682622869,0.0,-19.283837103847418
-[19Sep2024 05:18:14.610] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -60.17914697467768,0.0,-19.232873353176274
-[19Sep2024 05:18:14.659] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -60.567538658457124,0.0,-19.175504734517972
-[19Sep2024 05:18:14.705] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -60.955326221744144,0.0,-19.11212221674259
-[19Sep2024 05:18:14.761] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -61.34249954940606,0.0,-19.043100122285296
-[19Sep2024 05:18:14.817] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -61.7290563774568,0.0,-18.96880133267996
-[19Sep2024 05:18:14.863] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -62.11499953726434,0.0,-18.889571014663943
-[19Sep2024 05:18:14.910] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -62.500336710509146,0.0,-18.805738311565165
-[19Sep2024 05:18:14.984] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -62.885078964402055,0.0,-18.717614233391714
-[19Sep2024 05:18:15.010] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -63.26924182129096,0.0,-18.625497050167724
-[19Sep2024 05:18:15.073] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -63.652842518367834,0.0,-18.529666242942994
-[19Sep2024 05:18:15.124] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -64.0359011847413,0.0,-18.43038797666486
-[19Sep2024 05:18:15.189] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -64.41843816805522,0.0,-18.327909146051752
-[19Sep2024 05:18:15.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -64.80047532766639,0.0,-18.22246290124758
-[19Sep2024 05:18:15.268] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -65.18203596170315,0.0,-18.114269999927274
-[19Sep2024 05:18:15.311] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -65.5631421709677,0.0,-18.003532790609825
-[19Sep2024 05:18:15.361] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -65.94381756402163,0.0,-17.890444274118863
-[19Sep2024 05:18:15.416] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -66.3240845843884,0.0,-17.77518179731851
-[19Sep2024 05:18:15.455] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -66.70396593835812,0.0,-17.65791222086591
-[19Sep2024 05:18:15.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -67.08348459851459,0.0,-17.538792958519025
-[19Sep2024 05:18:15.560] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -67.4626611917538,0.0,-17.417965699420165
-[19Sep2024 05:18:15.596] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -67.84151684528206,0.0,-17.295565191788228
-[19Sep2024 05:18:15.666] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -68.2200718588083,0.0,-17.171716325342913
-[19Sep2024 05:18:15.712] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -68.59834446854347,0.0,-17.046531510141904
-[19Sep2024 05:18:15.755] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -68.97635370222997,0.0,-16.92011912832777
-[19Sep2024 05:18:15.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -69.35411666248547,0.0,-16.79257672941435
-[19Sep2024 05:18:15.857] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -69.73165004923976,0.0,-16.663995714042812
-[19Sep2024 05:18:15.909] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -70.10896887753097,0.0,-16.534458348375665
-[19Sep2024 05:18:15.956] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -70.4860893021214,0.0,-16.404045872943698
-[19Sep2024 05:18:16.006] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -70.86302453236931,0.0,-16.27282780745486
-[19Sep2024 05:18:16.074] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -71.23978777172397,0.0,-16.140870320137537
-[19Sep2024 05:18:16.108] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -71.6163922332189,0.0,-16.008236561957574
-[19Sep2024 05:18:16.157] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -71.99284847120362,0.0,-15.874979772946062
-[19Sep2024 05:18:16.257] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -72.36916731452129,0.0,-15.741151467760346
-[19Sep2024 05:18:16.269] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -72.74535983533406,0.0,-15.606801606358658
-[19Sep2024 05:18:16.317] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -73.12143466493399,0.0,-15.471971556865583
-[19Sep2024 05:18:16.358] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -73.4974009051366,0.0,-15.336702148291579
-[19Sep2024 05:18:16.411] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -73.87326674385167,0.0,-15.201030126744627
-[19Sep2024 05:18:16.470] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -74.2490408838512,0.0,-15.064992158626865
-[19Sep2024 05:18:16.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -74.62472982397594,0.0,-14.928617649724856
-[19Sep2024 05:18:16.567] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -75.00034074683572,0.0,-14.791936658288705
-[19Sep2024 05:18:16.606] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -75.37588011677963,0.0,-14.654976238605286
-[19Sep2024 05:18:16.654] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -75.75135241434236,0.0,-14.517757145558335
-[19Sep2024 05:18:16.707] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -76.12676300938529,0.0,-14.380301653447987
-[19Sep2024 05:18:16.777] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -76.50211673478225,0.0,-14.242629807280991
-[19Sep2024 05:18:16.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of Sl44tx) moved too quickly! -76.87741927749903,0.0,-14.104763242468152
-[19Sep2024 05:25:07.470] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
-[19Sep2024 05:27:12.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Who You Gonna Call?]
-[19Sep2024 05:32:22.861] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Timed out
-[19Sep2024 05:32:22.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
-[19Sep2024 05:32:26.177] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sl44tx is 8a1edb0c-bf68-4e38-a47f-c66e8ed55861
-[19Sep2024 05:32:27.742] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.106.205.82:65253] logged in with entity id 19589 at (5768.612249319257, 75.7531999805212, -721.1714127506337)
-[19Sep2024 05:32:27.842] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
-[19Sep2024 05:32:27.872] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Sl44tx'
-[19Sep2024 05:32:27.872] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Sl44tx'
-[19Sep2024 05:33:49.420] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[19Sep2024 05:33:54.337] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Timed out
-[19Sep2024 05:33:54.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
-[19Sep2024 05:33:56.783] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sl44tx is 8a1edb0c-bf68-4e38-a47f-c66e8ed55861
-[19Sep2024 05:33:58.327] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.106.205.82:65258] logged in with entity id 21096 at (5918.609646574616, 67.24918707874468, -846.8369415693082)
-[19Sep2024 05:33:58.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
-[19Sep2024 05:33:58.444] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Sl44tx'
-[19Sep2024 05:33:58.444] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Sl44tx'
-[19Sep2024 05:34:57.978] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Timed out
-[19Sep2024 05:34:57.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
-[19Sep2024 05:38:47.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[19Sep2024 05:38:47.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19Sep2024 05:38:47.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19Sep2024 05:38:47.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19Sep2024 05:38:47.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19Sep2024 05:38:48.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19Sep2024 05:38:48.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19Sep2024 05:38:48.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19Sep2024 05:38:48.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19Sep2024 05:38:48.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19Sep2024 05:38:48.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19Sep2024 05:38:49.067] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[20Sep2024 03:59:35.311] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[20Sep2024 03:59:35.322] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[20Sep2024 03:59:37.208] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[20Sep2024 03:59:37.344] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[20Sep2024 03:59:38.480] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[20Sep2024 03:59:38.487] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[20Sep2024 03:59:38.502] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[20Sep2024 03:59:38.511] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[20Sep2024 03:59:38.970] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[20Sep2024 03:59:44.979] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
+[20Sep2024 03:59:44.999] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Sep2024 03:59:45.334] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[20Sep2024 03:59:45.336] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[20Sep2024 03:59:45.384] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Sep2024 03:59:45.390] [main/WARN] [mixin/]: Reference map 'nerb-forge-refmap.json' for nerb.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Sep2024 03:59:45.802] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 84 options available, 0 override(s) found
+[20Sep2024 03:59:45.803] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[20Sep2024 03:59:45.853] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[20Sep2024 03:59:46.435] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[20Sep2024 03:59:46.443] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[20Sep2024 03:59:46.445] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess)
+[20Sep2024 03:59:48.354] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Sep2024 03:59:48.439] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Sep2024 03:59:50.704] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[20Sep2024 03:59:50.705] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[20Sep2024 03:59:50.995] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[20Sep2024 03:59:52.732] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (24.67 s after launch)
+[20Sep2024 03:59:53.100] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Sep2024 03:59:53.101] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Sep2024 03:59:53.556] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20Sep2024 03:59:53.556] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[20Sep2024 03:59:58.905] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 6155 milliseconds
+[20Sep2024 03:59:59.884] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Sep2024 03:59:59.885] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Sep2024 03:59:59.901] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Sep2024 03:59:59.902] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20Sep2024 04:00:06.200] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
+[20Sep2024 04:00:07.630] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[20Sep2024 04:00:07.639] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[20Sep2024 04:00:07.644] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[20Sep2024 04:00:07.647] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[20Sep2024 04:00:07.648] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[20Sep2024 04:00:07.648] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[20Sep2024 04:00:07.649] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[20Sep2024 04:00:07.655] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[20Sep2024 04:00:07.915] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[20Sep2024 04:00:07.920] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgeRegistrationFactory for service Factory
+[20Sep2024 04:00:07.935] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgePlatformHelper for service PlatformHelper
+[20Sep2024 04:00:07.935] [modloading-worker-0/INFO] [ToolLeveling+/]: Initializing ToolLeveling+...
+[20Sep2024 04:00:08.227] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[20Sep2024 04:00:08.440] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[20Sep2024 04:00:08.441] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[20Sep2024 04:00:08.532] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[20Sep2024 04:00:13.999] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[20Sep2024 04:00:14.622] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[20Sep2024 04:00:14.650] [modloading-worker-0/INFO] [ToolLeveling+/]: Created README.txt in config folder.
+[20Sep2024 04:00:14.652] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'tool_leveling_table.json' was successfully loaded.
+[20Sep2024 04:00:14.657] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: tool_leveling_table.json
+[20Sep2024 04:00:14.657] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'command_config.json' was successfully loaded.
+[20Sep2024 04:00:14.658] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: command_config.json
+[20Sep2024 04:00:14.734] [main/INFO] [journeymap/]: Initializing Packet Registries
+[20Sep2024 04:00:14.793] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[20Sep2024 04:00:14.794] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[20Sep2024 04:00:14.798] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[20Sep2024 04:00:14.799] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[20Sep2024 04:00:14.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[20Sep2024 04:00:15.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.2 Target: null
+[20Sep2024 04:00:15.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[20Sep2024 04:00:15.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.15 Target: null
+[20Sep2024 04:00:15.243] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[20Sep2024 04:00:15.295] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[20Sep2024 04:00:15.309] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[20Sep2024 04:00:15.323] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[20Sep2024 04:00:15.325] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:forge at mcp.mobius.waila.plugin.forge.ForgeCommonPlugin
+[20Sep2024 04:00:15.329] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[20Sep2024 04:00:15.382] [modloading-worker-0/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[20Sep2024 04:00:15.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[20Sep2024 04:00:15.458] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[20Sep2024 04:00:15.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.7.3 Target: null
+[20Sep2024 04:00:15.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Sep2024 04:00:15.675] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[20Sep2024 04:00:16.073] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Sep2024 04:00:16.259] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[20Sep2024 04:00:17.133] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23177!/assets/.mcassetsroot' uses unexpected schema
+[20Sep2024 04:00:17.134] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23177!/data/.mcassetsroot' uses unexpected schema
+[20Sep2024 04:00:22.960] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[20Sep2024 04:00:23.131] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.7.3.jar
+[20Sep2024 04:00:26.241] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[20Sep2024 04:00:26.668] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2294 advancements
+[20Sep2024 04:00:26.673] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[20Sep2024 04:00:27.281] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[20Sep2024 04:00:27.286] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[20Sep2024 04:00:27.287] [main/INFO] [Dungeon Crawl/]: Loading data...
+[20Sep2024 04:00:27.845] [main/INFO] [Dungeon Crawl/]: Done.
+[20Sep2024 04:00:27.861] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[20Sep2024 04:00:29.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[20Sep2024 04:00:29.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Sep2024 04:00:29.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Sep2024 04:00:29.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Sep2024 04:00:30.107] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Sep2024 04:00:30.184] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[20Sep2024 04:00:30.463] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[20Sep2024 04:00:30.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Sep2024 04:00:32.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Sep2024 04:00:33.825] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Sep2024 04:00:33.839] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Sep2024 04:00:33.852] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Sep2024 04:00:34.389] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Sep2024 04:00:34.897] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Sep2024 04:00:35.424] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[20Sep2024 04:00:36.033] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[20Sep2024 04:00:36.353] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[20Sep2024 04:00:36.853] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[20Sep2024 04:00:37.422] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[20Sep2024 04:00:37.853] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[20Sep2024 04:00:38.353] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[20Sep2024 04:00:38.963] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6112 ms
+[20Sep2024 04:00:38.967] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.513s)! For help, type "help"
+[20Sep2024 04:00:39.065] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Sep2024 04:00:39.136] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[20Sep2024 04:00:39.190] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[20Sep2024 04:00:39.192] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[20Sep2024 04:00:39.197] [Server thread/WARN] [ModernFix/]: Dedicated server took 71.134 seconds to load
+[20Sep2024 04:00:45.047] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sl44tx is 8a1edb0c-bf68-4e38-a47f-c66e8ed55861
+[20Sep2024 04:00:46.915] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.106.205.82:49769] logged in with entity id 592 at (5851.982132020783, 64.162141421027, -976.6629110713374)
+[20Sep2024 04:00:47.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
+[20Sep2024 04:00:47.502] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Sl44tx'
+[20Sep2024 04:00:47.505] [Server thread/INFO] [ToolLeveling+/]: Loaded ForgeServerNetworkHelper for service ServerNetworkHelper
+[20Sep2024 04:00:47.506] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Sl44tx'
+[20Sep2024 04:00:50.111] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3461ms or 69 ticks behind
+[20Sep2024 04:01:08.317] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3217ms or 64 ticks behind
+[20Sep2024 04:01:27.924] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2174ms or 43 ticks behind
+[20Sep2024 04:04:52.368] [Worker-Main-8/INFO] [ModernFix/]: Instantiating Mojang DFU
+[20Sep2024 04:05:57.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Magic Writing]
+[20Sep2024 04:05:59.750] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-99, y=-32, z=-208}
+[20Sep2024 04:06:05.480] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-106, y=-32, z=-216}
+[20Sep2024 04:09:31.475] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
