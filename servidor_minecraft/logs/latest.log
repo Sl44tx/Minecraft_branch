@@ -1,214 +1,130 @@
-[20Sep2024 03:59:35.311] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[20Sep2024 03:59:35.322] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[20Sep2024 03:59:37.208] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[20Sep2024 03:59:37.344] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[20Sep2024 03:59:38.480] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[20Sep2024 03:59:38.487] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[20Sep2024 03:59:38.502] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[20Sep2024 03:59:38.511] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[20Sep2024 03:59:38.970] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
-[20Sep2024 03:59:44.979] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
-[20Sep2024 03:59:44.999] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[20Sep2024 03:59:45.334] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[20Sep2024 03:59:45.336] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[20Sep2024 03:59:45.384] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Sep2024 03:59:45.390] [main/WARN] [mixin/]: Reference map 'nerb-forge-refmap.json' for nerb.mixins.json could not be read. If this is a development environment you can ignore this message
-[20Sep2024 03:59:45.802] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 84 options available, 0 override(s) found
-[20Sep2024 03:59:45.803] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[20Sep2024 03:59:45.853] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[20Sep2024 03:59:46.435] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache)
-[20Sep2024 03:59:46.443] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline)
-[20Sep2024 03:59:46.445] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess)
-[20Sep2024 03:59:48.354] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[20Sep2024 03:59:48.439] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[20Sep2024 03:59:50.704] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[20Sep2024 03:59:50.705] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[20Sep2024 03:59:50.995] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[20Sep2024 03:59:52.732] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (24.67 s after launch)
-[20Sep2024 03:59:53.100] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[20Sep2024 03:59:53.101] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[20Sep2024 03:59:53.556] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[20Sep2024 03:59:53.556] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[20Sep2024 03:59:58.905] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 6155 milliseconds
-[20Sep2024 03:59:59.884] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[20Sep2024 03:59:59.885] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[20Sep2024 03:59:59.901] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[20Sep2024 03:59:59.902] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[20Sep2024 04:00:06.200] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
-[20Sep2024 04:00:07.630] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[20Sep2024 04:00:07.639] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[20Sep2024 04:00:07.644] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[20Sep2024 04:00:07.647] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[20Sep2024 04:00:07.648] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[20Sep2024 04:00:07.648] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[20Sep2024 04:00:07.649] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[20Sep2024 04:00:07.655] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[20Sep2024 04:00:07.915] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
-[20Sep2024 04:00:07.920] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgeRegistrationFactory for service Factory
-[20Sep2024 04:00:07.935] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgePlatformHelper for service PlatformHelper
-[20Sep2024 04:00:07.935] [modloading-worker-0/INFO] [ToolLeveling+/]: Initializing ToolLeveling+...
-[20Sep2024 04:00:08.227] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[20Sep2024 04:00:08.440] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[20Sep2024 04:00:08.441] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[20Sep2024 04:00:08.532] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[20Sep2024 04:00:13.999] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[20Sep2024 04:00:14.622] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[20Sep2024 04:00:14.650] [modloading-worker-0/INFO] [ToolLeveling+/]: Created README.txt in config folder.
-[20Sep2024 04:00:14.652] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'tool_leveling_table.json' was successfully loaded.
-[20Sep2024 04:00:14.657] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: tool_leveling_table.json
-[20Sep2024 04:00:14.657] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'command_config.json' was successfully loaded.
-[20Sep2024 04:00:14.658] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: command_config.json
-[20Sep2024 04:00:14.734] [main/INFO] [journeymap/]: Initializing Packet Registries
-[20Sep2024 04:00:14.793] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[20Sep2024 04:00:14.794] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[20Sep2024 04:00:14.798] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[20Sep2024 04:00:14.799] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[20Sep2024 04:00:14.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[20Sep2024 04:00:15.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.2 Target: null
-[20Sep2024 04:00:15.123] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[20Sep2024 04:00:15.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.15 Target: null
-[20Sep2024 04:00:15.243] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[20Sep2024 04:00:15.295] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
-[20Sep2024 04:00:15.309] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
-[20Sep2024 04:00:15.323] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
-[20Sep2024 04:00:15.325] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:forge at mcp.mobius.waila.plugin.forge.ForgeCommonPlugin
-[20Sep2024 04:00:15.329] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
-[20Sep2024 04:00:15.382] [modloading-worker-0/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[20Sep2024 04:00:15.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
-[20Sep2024 04:00:15.458] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[20Sep2024 04:00:15.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.7.3 Target: null
-[20Sep2024 04:00:15.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[20Sep2024 04:00:15.675] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
-[20Sep2024 04:00:16.073] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20Sep2024 04:00:16.259] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[20Sep2024 04:00:17.133] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23177!/assets/.mcassetsroot' uses unexpected schema
-[20Sep2024 04:00:17.134] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23177!/data/.mcassetsroot' uses unexpected schema
-[20Sep2024 04:00:22.960] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[20Sep2024 04:00:23.131] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.7.3.jar
-[20Sep2024 04:00:26.241] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
-[20Sep2024 04:00:26.668] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2294 advancements
-[20Sep2024 04:00:26.673] [main/INFO] [placebo/]: Registered 0 additional recipes.
-[20Sep2024 04:00:27.281] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[20Sep2024 04:00:27.286] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
-[20Sep2024 04:00:27.287] [main/INFO] [Dungeon Crawl/]: Loading data...
-[20Sep2024 04:00:27.845] [main/INFO] [Dungeon Crawl/]: Done.
-[20Sep2024 04:00:27.861] [main/INFO] [placebo/]: Registered 0 gear_sets.
-[20Sep2024 04:00:29.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[20Sep2024 04:00:29.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[20Sep2024 04:00:29.791] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[20Sep2024 04:00:29.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[20Sep2024 04:00:30.107] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[20Sep2024 04:00:30.184] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[20Sep2024 04:00:30.463] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[20Sep2024 04:00:30.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[20Sep2024 04:00:32.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[20Sep2024 04:00:33.825] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Sep2024 04:00:33.839] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Sep2024 04:00:33.852] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Sep2024 04:00:34.389] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Sep2024 04:00:34.897] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[20Sep2024 04:00:35.424] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[20Sep2024 04:00:36.033] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[20Sep2024 04:00:36.353] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[20Sep2024 04:00:36.853] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[20Sep2024 04:00:37.422] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[20Sep2024 04:00:37.853] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[20Sep2024 04:00:38.353] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
-[20Sep2024 04:00:38.963] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6112 ms
-[20Sep2024 04:00:38.967] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.513s)! For help, type "help"
-[20Sep2024 04:00:39.065] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[20Sep2024 04:00:39.136] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
-[20Sep2024 04:00:39.190] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[20Sep2024 04:00:39.192] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[20Sep2024 04:00:39.197] [Server thread/WARN] [ModernFix/]: Dedicated server took 71.134 seconds to load
-[20Sep2024 04:00:45.047] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sl44tx is 8a1edb0c-bf68-4e38-a47f-c66e8ed55861
-[20Sep2024 04:00:46.915] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.106.205.82:49769] logged in with entity id 592 at (5851.982132020783, 64.162141421027, -976.6629110713374)
-[20Sep2024 04:00:47.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
-[20Sep2024 04:00:47.502] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Sl44tx'
-[20Sep2024 04:00:47.505] [Server thread/INFO] [ToolLeveling+/]: Loaded ForgeServerNetworkHelper for service ServerNetworkHelper
-[20Sep2024 04:00:47.506] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Sl44tx'
-[20Sep2024 04:00:50.111] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3461ms or 69 ticks behind
-[20Sep2024 04:01:08.317] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3217ms or 64 ticks behind
-[20Sep2024 04:01:27.924] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2174ms or 43 ticks behind
-[20Sep2024 04:04:52.368] [Worker-Main-8/INFO] [ModernFix/]: Instantiating Mojang DFU
-[20Sep2024 04:05:57.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Magic Writing]
-[20Sep2024 04:05:59.750] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-99, y=-32, z=-208}
-[20Sep2024 04:06:05.480] [Worker-Main-8/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-106, y=-32, z=-216}
-[20Sep2024 04:09:31.475] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[20Sep2024 04:11:50.187] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5451, l='ServerLevel[world]', x=5934.40, y=48.00, z=-1874.78] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:12:26.432] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5538, l='ServerLevel[world]', x=5935.75, y=48.00, z=-1884.68] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:12:34.939] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5489, l='ServerLevel[world]', x=5940.46, y=48.00, z=-1886.49] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:12:37.636] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5617, l='ServerLevel[world]', x=5940.04, y=49.00, z=-1887.14] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:12:40.438] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5476, l='ServerLevel[world]', x=5940.25, y=49.00, z=-1887.14] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:12:48.287] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5491, l='ServerLevel[world]', x=5938.73, y=48.00, z=-1884.20] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:12:50.878] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5385, l='ServerLevel[world]', x=5938.90, y=48.00, z=-1884.90] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:13:06.087] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5670, l='ServerLevel[world]', x=5937.60, y=48.00, z=-1873.99] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:13:08.989] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5641, l='ServerLevel[world]', x=5937.73, y=48.00, z=-1874.09] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:13:15.414] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5572, l='ServerLevel[world]', x=5938.70, y=48.00, z=-1874.28] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:13:16.662] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5645, l='ServerLevel[world]', x=5938.85, y=48.00, z=-1874.34] died: Unlicensed Alchemist was killed trying to hurt Sl44tx
-[20Sep2024 04:13:16.690] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5643, l='ServerLevel[world]', x=5938.98, y=48.00, z=-1874.37] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:13:32.231] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5798, l='ServerLevel[world]', x=5936.37, y=48.00, z=-1880.79] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:13:47.494] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5759, l='ServerLevel[world]', x=5938.44, y=48.00, z=-1884.84] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:13:53.563] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5868, l='ServerLevel[world]', x=5936.03, y=48.00, z=-1874.93] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:13:58.144] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5757, l='ServerLevel[world]', x=5934.09, y=48.00, z=-1874.48] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:13:59.380] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5761, l='ServerLevel[world]', x=5933.31, y=48.00, z=-1874.53] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:14:05.132] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/5866, l='ServerLevel[world]', x=5932.30, y=48.00, z=-1874.56] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:14:09.816] [Server thread/WARN] [net.minecraft.world.level.block.entity.SignBlockEntity/]: Player Sl44tx just tried to change non-editable sign
-[20Sep2024 04:14:47.837] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6052, l='ServerLevel[world]', x=5956.08, y=48.00, z=-1885.54] died: Drunken Villager was slain by Sl44tx
-[20Sep2024 04:15:05.817] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6119, l='ServerLevel[world]', x=5966.84, y=45.00, z=-1888.85] died: Drunken Villager was killed trying to hurt Sl44tx
-[20Sep2024 04:15:15.116] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6163, l='ServerLevel[world]', x=5968.68, y=45.00, z=-1889.22] died: Drunken Villager was slain by Sl44tx
-[20Sep2024 04:15:41.014] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6191, l='ServerLevel[world]', x=5969.50, y=45.00, z=-1893.13] died: Drunken Villager was killed trying to hurt Sl44tx
-[20Sep2024 04:16:09.365] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/4175, l='ServerLevel[world]', x=5885.27, y=68.28, z=-1926.30] died, message: 'Villager was slain by Zombie'
-[20Sep2024 04:16:19.015] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6261, l='ServerLevel[world]', x=5964.15, y=45.00, z=-1897.55] died: Drunken Villager was killed trying to hurt Sl44tx
-[20Sep2024 04:16:26.013] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6190, l='ServerLevel[world]', x=5967.39, y=45.00, z=-1896.70] died: Drunken Villager was killed trying to hurt Sl44tx
-[20Sep2024 04:16:28.665] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6262, l='ServerLevel[world]', x=5969.82, y=45.00, z=-1895.47] died: Drunken Villager was killed trying to hurt Sl44tx
-[20Sep2024 04:16:29.316] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6297, l='ServerLevel[world]', x=5969.92, y=45.00, z=-1895.29] died: Drunken Villager was killed trying to hurt Sl44tx
-[20Sep2024 04:17:26.616] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6091, l='ServerLevel[world]', x=5951.75, y=48.00, z=-1874.37] died: Drunken Villager was killed trying to hurt Sl44tx
-[20Sep2024 04:17:27.240] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6037, l='ServerLevel[world]', x=5951.98, y=48.00, z=-1874.50] died: Drunken Villager was slain by Sl44tx
-[20Sep2024 04:17:28.113] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6167, l='ServerLevel[world]', x=5952.77, y=48.00, z=-1874.36] died: Drunken Villager was killed trying to hurt Sl44tx
-[20Sep2024 04:17:29.213] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6419, l='ServerLevel[world]', x=5952.16, y=48.00, z=-1874.69] died: Drunken Villager was killed trying to hurt Sl44tx
-[20Sep2024 04:17:30.485] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6534, l='ServerLevel[world]', x=5953.16, y=48.00, z=-1874.37] died: Drunken Villager was slain by Sl44tx
-[20Sep2024 04:17:48.864] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/5718, l='ServerLevel[world]', x=5958.15, y=48.00, z=-1875.09] died: Drunken Villager was killed trying to hurt Sl44tx
-[20Sep2024 04:19:30.362] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/6786, l='ServerLevel[world]', x=5930.47, y=48.00, z=-1890.94] died: Drunken Villager was killed trying to hurt Sl44tx
-[20Sep2024 04:19:35.859] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/5647, l='ServerLevel[world]', x=5929.46, y=48.00, z=-1879.57] died: Drunken Villager fell from a high place
-[20Sep2024 04:19:36.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Isn't It Iron Pick]
-[20Sep2024 04:20:05.106] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/4176, l='ServerLevel[world]', x=5935.23, y=70.00, z=-1864.50] died, message: 'Villager hit the ground too hard'
-[20Sep2024 04:20:06.774] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/3932, l='ServerLevel[world]', x=5930.30, y=80.42, z=-1869.30] died, message: 'Fisherman was slain by Drunken Villager'
-[20Sep2024 04:20:16.013] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/5453, l='ServerLevel[world]', x=5926.12, y=77.50, z=-1854.43] died: Drunken Villager hit the ground too hard
-[20Sep2024 04:20:19.766] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/4173, l='ServerLevel[world]', x=5919.41, y=77.00, z=-1862.54] died, message: 'Leatherworker was slain by Drunken Villager'
-[20Sep2024 04:20:22.786] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Drunken Villager'/5583, l='ServerLevel[world]', x=5938.94, y=49.00, z=-1903.29] died: Drunken Villager was slain by Sl44tx
-[20Sep2024 04:20:35.111] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/6879, l='ServerLevel[world]', x=5940.01, y=48.00, z=-1908.02] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:20:38.382] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/6808, l='ServerLevel[world]', x=5939.59, y=48.00, z=-1906.88] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:20:50.284] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/6908, l='ServerLevel[world]', x=5937.96, y=48.00, z=-1908.33] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:20:57.486] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/6857, l='ServerLevel[world]', x=5940.50, y=48.00, z=-1908.80] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:20:58.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx was killed by Potion using magic
-[20Sep2024 04:20:58.834] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Sl44tx with unique ID travelersbackpack.enderman_20.09.2024-04.20.58.dat
-[20Sep2024 04:20:58.837] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Your backpack has been placed at X: 5939 Y: 48 Z: -1911
-[20Sep2024 04:20:58.872] [Server thread/INFO] [tombstone/]: The player Sl44tx has successfully been saved
-[20Sep2024 04:24:57.874] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/7079, l='ServerLevel[world]', x=5928.68, y=54.00, z=-1814.48] died, message: 'Villager was slain by Zombie'
-[20Sep2024 04:26:16.118] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/7096, l='ServerLevel[world]', x=5801.36, y=63.02, z=-1832.04] died, message: 'Villager was slain by Crocodile'
-[20Sep2024 04:27:12.080] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/8439, l='ServerLevel[world]', x=5911.35, y=50.00, z=-1887.32] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:27:19.800] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/8437, l='ServerLevel[world]', x=5906.31, y=50.00, z=-1891.14] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:27:22.292] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/8488, l='ServerLevel[world]', x=5906.48, y=50.00, z=-1891.49] died: Unlicensed Alchemist was slain by Sl44tx
-[20Sep2024 04:32:26.169] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9988, l='ServerLevel[world]', x=5544.46, y=71.30, z=-1965.73]
-[20Sep2024 04:32:26.170] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9989, l='ServerLevel[world]', x=5542.65, y=71.60, z=-1966.79]
-[20Sep2024 04:32:26.170] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9990, l='ServerLevel[world]', x=5538.88, y=71.00, z=-1965.66]
-[20Sep2024 04:32:26.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9991, l='ServerLevel[world]', x=5537.64, y=70.40, z=-1965.14]
-[20Sep2024 04:32:26.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9994, l='ServerLevel[world]', x=5539.88, y=71.21, z=-1966.61]
-[20Sep2024 04:32:26.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9995, l='ServerLevel[world]', x=5538.98, y=70.77, z=-1965.82]
-[20Sep2024 04:32:26.171] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9996, l='ServerLevel[world]', x=5538.18, y=70.47, z=-1965.14]
-[20Sep2024 04:32:26.172] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/9997, l='ServerLevel[world]', x=5537.17, y=70.17, z=-1964.25]
-[20Sep2024 04:42:25.825] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx lost connection: Disconnected
-[20Sep2024 04:42:25.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx left the game
-[20Sep2024 04:42:37.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[20Sep2024 04:42:37.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[20Sep2024 04:42:37.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[20Sep2024 04:42:37.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[20Sep2024 04:42:38.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20Sep2024 04:42:38.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20Sep2024 04:42:38.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20Sep2024 04:42:38.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20Sep2024 04:42:38.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20Sep2024 04:42:38.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20Sep2024 04:42:38.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20Sep2024 04:42:39.111] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Sep2024 00:14:03.486] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[21Sep2024 00:14:03.511] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[21Sep2024 00:14:05.395] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[21Sep2024 00:14:05.556] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[21Sep2024 00:14:07.349] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[21Sep2024 00:14:07.352] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[21Sep2024 00:14:07.353] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[21Sep2024 00:14:07.355] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[21Sep2024 00:14:08.061] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[21Sep2024 00:14:14.420] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
+[21Sep2024 00:14:14.435] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[21Sep2024 00:14:14.953] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[21Sep2024 00:14:14.955] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[21Sep2024 00:14:15.363] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Sep2024 00:14:15.369] [main/WARN] [mixin/]: Reference map 'nerb-forge-refmap.json' for nerb.mixins.json could not be read. If this is a development environment you can ignore this message
+[21Sep2024 00:14:15.996] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 84 options available, 0 override(s) found
+[21Sep2024 00:14:15.997] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[21Sep2024 00:14:16.035] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[21Sep2024 00:14:17.214] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/ArrayLightDataCache (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.ArrayLightDataCache)
+[21Sep2024 00:14:17.241] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/flat/FlatLightPipeline (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.flat.FlatLightPipeline)
+[21Sep2024 00:14:17.242] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/model/light/data/LightDataAccess (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.model.light.data.LightDataAccess)
+[21Sep2024 00:14:18.685] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Sep2024 00:14:18.804] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Sep2024 00:14:20.675] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[21Sep2024 00:14:20.676] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[21Sep2024 00:14:21.039] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[21Sep2024 00:14:23.096] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (29.52 s after launch)
+[21Sep2024 00:14:23.465] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[21Sep2024 00:14:23.466] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[21Sep2024 00:14:23.897] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[21Sep2024 00:14:23.898] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[21Sep2024 00:14:29.367] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 6263 milliseconds
+[21Sep2024 00:14:30.315] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Sep2024 00:14:30.316] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Sep2024 00:14:30.328] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Sep2024 00:14:30.329] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[21Sep2024 00:14:36.300] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
+[21Sep2024 00:14:38.182] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[21Sep2024 00:14:38.183] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[21Sep2024 00:14:38.187] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[21Sep2024 00:14:38.191] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[21Sep2024 00:14:38.193] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[21Sep2024 00:14:38.197] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[21Sep2024 00:14:38.198] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[21Sep2024 00:14:38.209] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[21Sep2024 00:14:38.299] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[21Sep2024 00:14:38.302] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgeRegistrationFactory for service Factory
+[21Sep2024 00:14:38.310] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgePlatformHelper for service PlatformHelper
+[21Sep2024 00:14:38.319] [modloading-worker-0/INFO] [ToolLeveling+/]: Initializing ToolLeveling+...
+[21Sep2024 00:14:39.343] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[21Sep2024 00:14:39.377] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[21Sep2024 00:14:39.378] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[21Sep2024 00:14:39.418] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[21Sep2024 00:14:44.075] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[21Sep2024 00:14:46.733] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[21Sep2024 00:14:46.742] [modloading-worker-0/INFO] [ToolLeveling+/]: Created README.txt in config folder.
+[21Sep2024 00:14:46.755] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'tool_leveling_table.json' was successfully loaded.
+[21Sep2024 00:14:46.756] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: tool_leveling_table.json
+[21Sep2024 00:14:46.759] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'command_config.json' was successfully loaded.
+[21Sep2024 00:14:46.761] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: command_config.json
+[21Sep2024 00:14:46.888] [main/INFO] [journeymap/]: Initializing Packet Registries
+[21Sep2024 00:14:46.899] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[21Sep2024 00:14:46.955] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[21Sep2024 00:14:46.956] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[21Sep2024 00:14:46.957] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[21Sep2024 00:14:46.957] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[21Sep2024 00:14:47.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.2 Target: null
+[21Sep2024 00:14:47.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[21Sep2024 00:14:47.218] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.15 Target: null
+[21Sep2024 00:14:47.220] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
+[21Sep2024 00:14:47.260] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
+[21Sep2024 00:14:47.261] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[21Sep2024 00:14:47.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.7.3 Target: null
+[21Sep2024 00:14:47.275] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[21Sep2024 00:14:47.439] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[21Sep2024 00:14:47.457] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[21Sep2024 00:14:47.469] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[21Sep2024 00:14:47.470] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:forge at mcp.mobius.waila.plugin.forge.ForgeCommonPlugin
+[21Sep2024 00:14:47.472] [modloading-worker-0/INFO] [mcp.mobius.waila.plugin.PluginLoader/]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[21Sep2024 00:14:47.536] [modloading-worker-0/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[21Sep2024 00:14:47.563] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[21Sep2024 00:14:48.264] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21Sep2024 00:14:48.415] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[21Sep2024 00:14:49.010] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23177!/assets/.mcassetsroot' uses unexpected schema
+[21Sep2024 00:14:49.011] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MSP-2.5-Owls/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23177!/data/.mcassetsroot' uses unexpected schema
+[21Sep2024 00:14:54.887] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[21Sep2024 00:14:55.348] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.7.3.jar
+[21Sep2024 00:14:58.981] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[21Sep2024 00:14:59.480] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2294 advancements
+[21Sep2024 00:14:59.503] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[21Sep2024 00:14:59.719] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[21Sep2024 00:14:59.723] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio entities
+[21Sep2024 00:14:59.725] [main/INFO] [Dungeon Crawl/]: Loading data...
+[21Sep2024 00:15:00.468] [main/INFO] [Dungeon Crawl/]: Done.
+[21Sep2024 00:15:00.497] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[21Sep2024 00:15:01.086] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[21Sep2024 00:15:01.088] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Sep2024 00:15:01.090] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Sep2024 00:15:01.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Sep2024 00:15:01.398] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Sep2024 00:15:01.896] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[21Sep2024 00:15:02.081] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[21Sep2024 00:15:02.415] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Sep2024 00:15:04.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Sep2024 00:15:05.892] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Sep2024 00:15:05.895] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Sep2024 00:15:05.900] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Sep2024 00:15:05.902] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Sep2024 00:15:06.317] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[21Sep2024 00:15:06.940] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[21Sep2024 00:15:07.316] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[21Sep2024 00:15:07.817] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
+[21Sep2024 00:15:08.316] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[21Sep2024 00:15:08.858] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
+[21Sep2024 00:15:09.395] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[21Sep2024 00:15:09.816] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 45%
+[21Sep2024 00:15:10.316] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
+[21Sep2024 00:15:10.567] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6252 ms
+[21Sep2024 00:15:10.568] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.493s)! For help, type "help"
+[21Sep2024 00:15:10.641] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[21Sep2024 00:15:10.679] [Server thread/INFO] [mcp.mobius.waila.config.PluginConfig/]: [WTHIT] Plugin config reloaded
+[21Sep2024 00:15:10.722] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[21Sep2024 00:15:10.723] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[21Sep2024 00:15:10.723] [Server thread/WARN] [ModernFix/]: Dedicated server took 77.152 seconds to load
+[21Sep2024 00:20:10.505] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Sl44tx is 8a1edb0c-bf68-4e38-a47f-c66e8ed55861
+[21Sep2024 00:20:12.136] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Sl44tx[/100.106.205.82:62444] logged in with entity id 594 at (5091.862269656476, 78.0, -2542.736156846525)
+[21Sep2024 00:20:12.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
+[21Sep2024 00:20:12.487] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Sl44tx'
+[21Sep2024 00:20:12.489] [Server thread/INFO] [ToolLeveling+/]: Loaded ForgeServerNetworkHelper for service ServerNetworkHelper
+[21Sep2024 00:20:12.491] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Sl44tx'
