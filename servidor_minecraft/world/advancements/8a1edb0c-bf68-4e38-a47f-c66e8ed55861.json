@@ -2920,9 +2920,15 @@
     },
     "done": true
   },
-  "minecraft:story/iron_tools": {
+  "tombstone:adventure/create_magic_scroll": {
     "criteria": {
-      "iron_pickaxe": "2024-09-20 04:19:36 +0000"
+      "has_magic_scroll": "2024-09-20 04:05:57 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_greenwood_pub": {
+    "criteria": {
+      "location0": "2024-09-20 04:08:24 +0000"
     },
     "done": true
   },
@@ -2944,12 +2950,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/black_dye_from_wither_rose": {
-    "criteria": {
-      "has_wither_rose": "2024-09-20 04:17:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/mud_brick_slab": {
     "criteria": {
       "has_mud_bricks": "2024-09-20 04:16:03 +0000"
@@ -2959,12 +2959,6 @@
   "minecraft:recipes/building_blocks/mud_brick_stairs": {
     "criteria": {
       "has_mud_bricks": "2024-09-20 04:16:03 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_greenwood_pub": {
-    "criteria": {
-      "location0": "2024-09-20 04:08:24 +0000"
     },
     "done": true
   },
@@ -2980,9 +2974,21 @@
     },
     "done": true
   },
-  "tombstone:adventure/create_magic_scroll": {
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
     "criteria": {
-      "has_magic_scroll": "2024-09-20 04:05:57 +0000"
+      "has_wither_rose": "2024-09-20 04:17:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-09-20 04:19:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-09-21 00:26:32 +0000"
     },
     "done": true
   },
