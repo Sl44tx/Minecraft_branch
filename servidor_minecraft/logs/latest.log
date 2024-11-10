@@ -266,3 +266,22 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 
 [10Nov2024 06:56:19.201] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2072ms or 41 ticks behind
 [10Nov2024 07:06:52.924] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
 [10Nov2024 07:17:26.010] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[10Nov2024 07:18:59.767] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2271, y=-6, z=2163}
+[10Nov2024 07:21:39.749] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1756, y=18, z=2019}
+[10Nov2024 07:21:40.258] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1703, y=29, z=2025}
+[10Nov2024 07:21:40.261] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1703, y=29, z=2024}
+[10Nov2024 07:22:37.647] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1623, y=9, z=1975}
+[10Nov2024 07:23:48.859] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Sl44tx moved too quickly! -1.2421587948060733,0.2468000194787976,-10.141065635145878
+[10Nov2024 07:23:48.869] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2939ms or 58 ticks behind
+[10Nov2024 07:24:24.665] [Worker-Main-18/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=1392, y=10, z=1826}
+[10Nov2024 07:24:24.666] [Worker-Main-18/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=1392, y=11, z=1826}
+[10Nov2024 07:24:24.667] [Worker-Main-18/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=1392, y=10, z=1827}
+[10Nov2024 07:24:24.667] [Worker-Main-18/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=1392, y=10, z=1828}
+[10Nov2024 07:24:28.834] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1322, y=20, z=1906}
+[10Nov2024 07:24:28.834] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1320, y=20, z=1906}
+[10Nov2024 07:25:08.887] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1364, y=31, z=1679}
+[10Nov2024 07:25:09.727] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1263, y=14, z=1682}
+[10Nov2024 07:25:09.762] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1263, y=14, z=1681}
+[10Nov2024 07:26:03.508] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1383, y=26, z=1586}
+[10Nov2024 07:26:03.511] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1384, y=26, z=1586}
+[10Nov2024 07:27:58.750] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
