@@ -258,3 +258,9 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 
 [10Nov2024 06:45:19.023] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2229, y=19, z=2667}
 [10Nov2024 06:45:31.775] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1960, y=-14, z=2700}
 [10Nov2024 06:45:42.341] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2112ms or 42 ticks behind
+[10Nov2024 06:46:36.319] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1975, y=-2, z=2704}
+[10Nov2024 06:46:36.320] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1975, y=-2, z=2705}
+[10Nov2024 06:47:02.269] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2313, y=-33, z=2330}
+[10Nov2024 06:47:50.307] [Worker-Main-19/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=1809, y=-13, z=2651}
+[10Nov2024 06:48:33.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx has made the advancement [Your First Receptacle]
+[10Nov2024 06:56:19.201] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2072ms or 41 ticks behind
