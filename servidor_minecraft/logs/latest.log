@@ -248,3 +248,13 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 
 [10Nov2024 06:34:57.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sl44tx joined the game
 [10Nov2024 06:34:57.133] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Sl44tx'
 [10Nov2024 06:34:57.134] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Sl44tx'
+[10Nov2024 06:39:00.008] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2009, y=-7, z=2062}
+[10Nov2024 06:44:40.117] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2259, y=10, z=2366}
+[10Nov2024 06:44:40.118] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2261, y=10, z=2366}
+[10Nov2024 06:45:04.519] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2297, y=-2, z=2354}
+[10Nov2024 06:45:06.216] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2303, y=-8, z=2581}
+[10Nov2024 06:45:06.217] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2303, y=-8, z=2580}
+[10Nov2024 06:45:17.742] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2179, y=-35, z=2666}
+[10Nov2024 06:45:19.023] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2229, y=19, z=2667}
+[10Nov2024 06:45:31.775] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=1960, y=-14, z=2700}
+[10Nov2024 06:45:42.341] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2112ms or 42 ticks behind
